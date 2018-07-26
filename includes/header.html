@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TNBeauty</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<link rel="stylesheet" href="../assets/css/style.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="top_panel">
+				<div class="top_panel_content">
+					<div class="container">
+						<div class="top_panel_left">
+							<div class="col-md-6 col-xs-12">
+								<ul type="none">
+									<li><a href="fb.com"><i class="fab fa-facebook-f"></i></a></li>&nbsp;
+									<li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
+									<li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
+									<li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
+									<li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
+									<li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;
+								</ul>
+							</div>
+						</div>
+						<div class="top_panel_right">
+							<div class="col-md-6 col-xs-12">
+								<p align="right">
+									<i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
+									<i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="#"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p align="center"><img src="../assets/img/tnbeautylogo.jpg" alt="" class="imgLogo"></p>
+			</div>
+		</body>
+	</html>
+	<script type="text/javascript">
+	//render header footer
+		$(document).ready(function(){
+			$("#header").html("<object width=\"100%\" height=\"100%\" type=\"text/html\" data=\"header.html\"></object>");
+			getidMenufromURL();
+		})
+	</script>
+	<script type="text/javascript"> //set active class menu
+			function afterClick(idElement)
+			{
+				var ul = document.getElementById("main-menu");
+				var items = ul.getElementsByTagName("li");
+				for (var i = 0; i < items.length; ++i) {
+					var n = items[i].className.indexOf('active');
+					if(n != -1)
+						items[i].className = items[i].className.replace('active', " ");
+				}
+				document.getElementById(idElement).className += ' active';
+			}
+	</script>
+	<script>
+		//Dao chuoi
+		function reverseString(str) {
+		// Step 1. Use the split() method to return a new array
+		var splitString = str.split(""); // var splitString = "hello".split("");
+		// ["h", "e", "l", "l", "o"]
+		
+		// Step 2. Use the reverse() method to reverse the new created array
+		var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
+		// ["o", "l", "l", "e", "h"]
+		
+		// Step 3. Use the join() method to join all elements of the array into a string
+		var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
+		// "olleh"
+		
+		//Step 4. Return the reversed string
+		return joinArray; // "olleh"
+		}
+		//Lay ten trang web tu url
+		function getidMenufromURL() {
+		var str = window.location.pathname;
+		if(str != "")
+		{
+			var reversestr = reverseString(str);
+			var input = reversestr.substring(reversestr.indexOf('.')+1,reversestr.indexOf('/'));
+			afterClick(reverseString(input));
+		}
+		else
+			afterClick('home');
+		}
+	</script>

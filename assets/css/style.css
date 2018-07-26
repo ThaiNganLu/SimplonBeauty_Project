@@ -1,0 +1,516 @@
+.top_panel ul li 
+{
+	display:inline;
+}
+.top_panel
+{
+	background-color: #FF0080;
+	color:white;
+	display: block;
+}
+.top_panel_right
+{
+	
+	color: white;
+}
+.top_panel_left
+{
+	margin-top: 1%
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+/*logo*/
+.imgLogo
+{
+	width: 15%;
+	height: auto;
+}
+.top_panel_content
+{
+	
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.table-custom {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+.navbar-default-custom {
+    background-color: #ffffff!important;
+    border-color: #ffffff!important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffffff!important;
+    border-bottom: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+.navbar-default .navbar-nav>.active
+{
+
+}
+.main-footer
+{
+    background-color: rgba(255,0,128,0.15);
+    
+}
+.footer1
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.style-one
+{
+    height: 10px;
+
+}
+.SliderImage
+{
+    width: 100%;
+    height: 500px !important;
+}
+.opacityimage
+{
+    opacity: 0.5;
+}
+.Document
+{
+        display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 412px;
+    -webkit-margin-end: 407px;
+}
+.hidden {
+    opacity: 0;
+}
+
+.post {
+    margin-bottom: 80px;
+    text-align: center;
+}
+.visible {
+    opacity: 1;
+}
+.GhiChu
+{
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.35;
+    font-family: cursive;
+    letter-spacing: 0em;    
+    font-weight: bold;
+
+}
+/*làm mờ*/
+.home-productskincare
+{
+    width:214.83px;
+     height: 107.41px;
+     width: 50%;
+    -webkit-border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle
+{
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+}
+.preview-text
+{
+    position: relative;
+    width: 50%;
+}
+.preview:hover .home-productskincare
+{
+    opacity: 0.2;
+    
+}
+.preview:hover .home-productmask
+{
+    opacity: 0.2;
+    
+}
+.preview:hover .home-productbody
+{
+    opacity: 0.2;
+    
+}
+.preview:hover .home-productmakeup
+{
+    opacity: 0.2;
+    
+}
+.preview:hover .home-productnail
+{
+    opacity: 0.2;
+    
+}
+.preview:hover .home-gift
+{
+    opacity: 0.2;
+}
+    
+}
+.preview:hover .middle
+{
+    opacity: 3;
+}
+a.home-preview-a:link
+{
+    color: red !important;
+}
+a.home-preview-a:vistited
+{
+    color: blue !important;
+}
+.preview-text
+{
+
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-top: -72px;
+}
+.home-textskincare
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptionskincare
+{
+    text-align: justify;
+    word-wrap: break-word;
+}
+.home-productmask
+{
+     width:214.83px;
+     height: 107.41px; 
+     width: 50%;
+    -webkit-border-radius: 100%;
+}
+.home-textmask
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptionmask
+{
+    text-align: justify;
+    
+}
+.home-productbody
+{
+    width:214.83px;
+     height: 107.41px;
+     width: 50%;
+    -webkit-border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.home-textbody
+{
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptionbody
+{
+    text-align: justify;
+}
+.home-productmakeup
+{ 
+    width:214.83px;
+     height: 107.41px;
+     width: 50%;
+    -webkit-border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.home-textmakeup
+{
+    
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptionslip
+{
+     
+    text-align: justify;
+}
+.home-content2
+{
+    background-image: url(background-home-content2.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.home-productnail
+{
+     width:214.83px;
+     height: 107.41px;
+     width: 50%;
+    -webkit-border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.home-textnail
+{
+    
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptionnail
+{
+     
+    text-align: justify;
+}
+.home-gift
+{
+     width:214.83px;
+     height: 107.41px;
+     width: 50%;
+    -webkit-border-radius: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.home-textgift
+{
+    
+    font-family: cursive;
+    font-weight: bold;
+}
+.home-textcaptiongift
+{
+     
+    text-align: justify;
+}
+.home-content3
+{
+   padding: 5% 25% 5% 25%;
+}
+.footer-img-staff
+{
+    width: 100%;
+
+}
+
+.skincare-caption
+{
+   padding: 1% 25% 5% 25%;
+   text-align: center;
+    font-size: 32px;
+    line-height: 1.35;
+    font-family: cursive;
+    letter-spacing: 0em;    
+    font-weight: bold;
+}
+.skincare-line hr { 
+    border-style: solid hidden solid hidden!important;
+    border-width: 2px!important;
+    height: auto!important;
+    border-top: 2px solid black!important;
+}
+.skincare-content-image1
+{
+    width: 183.05px;
+    height: 223.05px;
+    width: 70%;
+}
+.skincare-content-image2
+{
+    width: 183.05px;
+    height: 223.05px;
+    width: 70%;
+}
+.skincare-content-image3
+{
+    width: 183.05px;
+    height: 223.05px;
+    width: 70%;
+}
+.skincare-content-image4
+{
+    width: 183.05px;
+    height: 223.05px;
+    width: 70%;
+}
+.menu-skincare-product
+{
+    background-color: white;
+}
+.navbar-inverse 
+{
+    background-color: white !important;
+    border-color: #080808 !important;
+}
+.nav-skincare-custom ul li 
+{
+    width: 16%;
+    display: inline-block;
+    outline: none;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #eee!important;
+    border-bottom: 1px solid pink;
+}
+
+.nav-skincare-custom ul li:hover
+{
+    background-color: pink;
+}
+.ul-nav-skincare-custom
+{
+    width: 100%;
+    list-style: none;
+    color: black;
+
+}
+.ul-nav-skincare-custom a:link{
+    color: black!important;
+}
+.ul-nav-skincare-custom a:hover{
+    text-decoration: none;
+    
+}
+.ul-nav-skincare-custom li {
+    width: 16.3%;
+    float: left;
+    height: 47px;
+    border-top: 1px solid #e1e4e8;
+    border-right: 1px solid #e1e4e8;
+    border-left: 1px solid #e1e4e8;
+    border-bottom: 1px solid #6d9811;
+    display: list-item;
+}
+
+.ul-nav-skincare-custom li:hover {
+    background-color: pink;
+}
+
+.ul-nav-skincare-custom {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-top: -65px;
+}
+
+.ul-nav-skincare-custom a:link {
+    color: black!important;
+}
+
+.ul-nav-skincare-custom a:hover {
+    text-decoration: none;
+}
+
+.ul-nav-skincare-custom li a {
+    display: inline-block;
+    width: 100%;
+    height: 47px;
+    line-height: 13px;
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.product-skincare-image
+{
+    width: 183.75px;
+    height: 227.7px;
+    width: 70%;
+}
+.produt-skincare-border
+{
+    width: 110%;
+    height: 300px;
+    border: 2px solid #eee;
+    margin-top: 2%;
+}
+/*24.07.2018*/
+/*menu*/
+.navbar-default-custom {
+    background-color: pink!important;
+    border-color: #ffffff!important;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: white!important;
+}
+/*dropdown menu*/
+li.sub-menu-dropdown:hover
+{
+    
+}
+.afterhover
+{
+    display: block!important;
+}
+.outhover
+{
+    display: none!important;
+}
+/*CSS Button*/
+#btnTop 
+{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:  brown;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#btnTop:hover
+{
+    background-color:  #FF0080;
+}
