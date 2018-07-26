@@ -1,21 +1,21 @@
 .top_panel ul li 
 {
-	display:inline;
+    display:inline;
 }
 .top_panel
 {
-	background-color: #FF0080;
-	color:white;
-	display: block;
+    background-color: #FF0080;
+    color:white;
+    display: block;
 }
 .top_panel_right
 {
-	
-	color: white;
+    
+    color: white;
 }
 .top_panel_left
 {
-	margin-top: 1%
+    margin-top: 1%
 }
 /* unvisited link */
 a:link {
@@ -39,12 +39,12 @@ a:active {
 /*logo*/
 .imgLogo
 {
-	width: 15%;
-	height: auto;
+    width: 15%;
+    height: auto;
 }
 .top_panel_content
 {
-	
+    
 }
 .navbar-nav {
     float:none;
@@ -53,8 +53,8 @@ a:active {
     text-align: center;
 }
 .table-custom {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
 }
 .navbar-default-custom {
     background-color: #ffffff!important;
@@ -154,32 +154,32 @@ a:active {
 }
 .preview:hover .home-productskincare
 {
-    opacity: 0.2;
+    opacity: 0.5;
     
 }
 .preview:hover .home-productmask
 {
-    opacity: 0.2;
+    opacity: 0.5;
     
 }
 .preview:hover .home-productbody
 {
-    opacity: 0.2;
+    opacity: 0.5;
     
 }
 .preview:hover .home-productmakeup
 {
-    opacity: 0.2;
+    opacity: 0.5;
     
 }
 .preview:hover .home-productnail
 {
-    opacity: 0.2;
+    opacity: 0.5;
     
 }
 .preview:hover .home-gift
 {
-    opacity: 0.2;
+    opacity: 0.5;
 }
     
 }
