@@ -382,7 +382,7 @@ a:active {
     margin-top: 10%;
     margin-bottom: 10%;
     color: #eee!important;
-    border-bottom: 1px solid pink;
+    border-bottom: 2px solid pink;
 }
 
 .nav-skincare-custom ul li:hover {
