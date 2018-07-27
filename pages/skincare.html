@@ -1,255 +1,275 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Skincare</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <!-- header -->
-    <div id="header"></div>
-    <!-- main menu -->
-    <nav class="navbar navbar-default navbar-default-custom">
-        <div class="container-fluid table-custom">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	<head>
+		<meta charset="UTF-8">
+		<title>Skincare</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<link rel="stylesheet" href="../assets/css/style.css">
+		<link rel="stylesheet" href="../assets/css/animate.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<div id="header"></div>
+		<!-- main menu -->
+		<nav class="navbar navbar-default navbar-default-custom">
+			<div class="container-fluid table-custom">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                    <li><a href="home.html">HOME</a></li>
-                    <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
-                        <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
-                            <li><a href="#">Page 1-1</a></li>
-                            <li><a href="#">Page 1-2</a></li>
-                            <li><a href="#">Page 1-3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../pages/mask.html">MASK/PACK</a></li>
-                    <li><a href="../pages/makeup.html">MAKE UP</a></li>
-                    <li><a href="../pages/body-hair.html">BODY/HAIR</a></li>
-                    <li><a href="../pages/nail.html">NAIL</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- content -->
-    <section id="template">
-        <div class="container">
-            <h2 class="skincare-caption">SKIN CARE</h2>
-            <p align="right"><a href="home.html">HOME</a>><a href="#">TYPE</a> ><a href="#">SKIN CARE</a></p>
-            <div class="skincare-line">
-                <hr size="10">
-                <div class="content-2">
-                    <h3>SKIN CARE HOT ITEM</h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-xs-12" style="border-right: 1px solid">
-                        <div align="center" style="width: 100%; height: 100%;">
-                            <img src="../assets/img/skincare-hotitem-1.jpg" class="skincare-content-image1">
-                            <p>THE THERAPY MOISTURE BLENDING FORMULA CREAM</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="border-right: 1px solid">
-                        <div align="center" style="width: 104%; height: 100%;">
-                            <img src="../assets/img/skincare-hotitem-2.jpg" class="skincare-content-image2">
-                            <p>YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="border-right: 1px solid">
-                        <div align="center" style="width: 100%; height: 100%;">
-                            <img src="../assets/img/skincare-hotitem-3.jpg" class="skincare-content-image3">
-                            <p>THE THERAPY OIL BLENDING FORMULA CREAM</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12" style="border-right: 1px solid">
-                        <div align="center" style="width: 100%; height: 100%;">
-                            <img src="../assets/img/skincare-hotitem-4.jpg" class="skincare-content-image4">
-                            <p>CHIA SEED NO SHINE HYDRATING CREAM</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Menu Product Child -->
-                <div>
-                    <nav class="nav-skincare-custom">
-                        <ul class="ul-nav-skincare-custom horizontal-list">
-                            <li><a href="#">SKIN</a></li>
-                            <li><a href="#">LOTION</a></li>
-                            <li><a href="#">ESSEN..</a></li>
-                            <li><a href="#">CREAM</a></li>
-                            <li><a href="#">EYE CARE</a></li>
-                            <li><a href="#">MIST</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <hr size="5">
-            </div>
-            <!-- product-content 3a -->
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image1.jpg" class="product-skincare-image">
-                        <p>DR.BELMEUR PANTHENOL SOOTHING GEL CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/skincare-hotitem-2.jpg" class="product-skincare-image">
-                        <p>YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image2.jpg" class="product-skincare-image">
-                        <p>THE THERAPY OIL BLENDING FORMULA SERUM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image3.jpg" class="product-skincare-image">
-                        <p>THE SIGNATURE KERATIN CALMING CREAM</p>
-                    </div>
-                </div>
-            </div>
-            <!-- product content 3b -->
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image4.jpg" class="product-skincare-image">
-                        <p>YEHWADAM REVITALIZING EYE CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image5.jpg" class="product-skincare-image">
-                        <p>YEHWADAM REVITALIZING CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image6.jpg" class="product-skincare-image">
-                        <p>YEHWADAM REVITALIZING SERUM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image7.jpg" class="product-skincare-image">
-                        <p>YEHWADAM REVITALIZING EMULSION</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image8.jpg" class="product-skincare-image">
-                        <p>YEHWADAM REVITALIZING TONER</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image9.jpg" class="product-skincare-image">
-                        <p>DR.BELMEUR DAILY REPAIR TONER</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image10.jpg" class="product-skincare-image">
-                        <p>JEJU VOLCANIC LAVA PORE ESSENCE</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image11.jpg" class="product-skincare-image">
-                        <p>JEJU VOLCANIC LAVA PORE LOTION</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image12.jpg" class="product-skincare-image">
-                        <p>YEHWADAM WHITE GINSENG COLLAGEN PEARL CAPSULE CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image13.jpg" class="product-skincare-image">
-                        <p>THE THERAPY ANTI-AGING NO SHINE HYDRATING CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image14.jpg" class="product-skincare-image">
-                        <p>THE THERAPY HYDRATING ANTI-AGING CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image15.jpg" class="product-skincare-image">
-                        <p>THE THERAPY HYDRATING FORMULA EMULSION</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image16.jpg" class="product-skincare-image">
-                        <p>THE THERAPY FIRST SERUM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image17.jpg" class="product-skincare-image">
-                        <p>THE SIGNATURE SKIN CONDITIONING SERUM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image18.jpg" class="product-skincare-image">
-                        <p>
-                            POMEGRANATE AND COLLAGEN VOLUME LIFTING EYE CREAM</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-12">
-                    <div align="center" class="produt-skincare-border">
-                        <img src="../assets/img/product_skincare_image19.jpg" class="product-skincare-image">
-                        <p>POMEGRANATE AND COLLAGEN VOLUME LIFTING SERUM</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer -->
-    <div id="footer"></div>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul id="main-menu" class="nav navbar-nav horizontal-list">
+						<li><a href="home.html">HOME</a></li>
+						<li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
+						<ul id="ul-sub-menu-dropdown" class="dropdown-menu">
+							<li><a href="#">Page 1-1</a></li>
+							<li><a href="#">Page 1-2</a></li>
+							<li><a href="#">Page 1-3</a></li>
+						</ul>
+					</li>
+					<li><a href="../pages/mask.html">MASK/PACK</a></li>
+					<li><a href="../pages/makeup.html">MAKE UP</a></li>
+					<li><a href="../pages/body-hair.html">BODY/HAIR</a></li>
+					<li><a href="../pages/nail.html">NAIL</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- content -->
+	<section id="template">
+		<div class="row">
+			<div class="container">
+				<div class="col-md-10 col-xs-12">
+					<h2 class="skincare-caption">SKIN CARE</h2>
+					<p align="right"><a href="home.html">HOME</a>><a href="#">TYPE</a> ><a href="#">SKIN CARE</a></p>
+					<div class="skincare-line">
+						<hr size="10">
+						<div class="content-2">
+							<h3>SKIN CARE HOT ITEM</h3>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+								<div align="center" style="width: 100%; height: 100%;">
+									<img src="../assets/img/skincare-hotitem-1.jpg" class="skincare-content-image1">
+									<p>THE THERAPY MOISTURE BLENDING FORMULA CREAM</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+								<div align="center" style="width: 104%; height: 100%;">
+									<img src="../assets/img/skincare-hotitem-2.jpg" class="skincare-content-image2">
+									<p>YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+								<div align="center" style="width: 100%; height: 100%;">
+									<img src="../assets/img/skincare-hotitem-3.jpg" class="skincare-content-image3">
+									<p>THE THERAPY OIL BLENDING FORMULA CREAM</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-xs-12">
+								<div align="center" style="width: 100%; height: 100%;">
+									<img src="../assets/img/skincare-hotitem-4.jpg" class="skincare-content-image4">
+									<p>CHIA SEED NO SHINE HYDRATING CREAM</p>
+								</div>
+							</div>
+						</div>
+						<!-- Menu Product Child -->
+						<div>
+							<nav class="nav-skincare-custom">
+								<ul class="ul-nav-skincare-custom horizontal-list">
+									<li><a href="#">SKIN</a></li>
+									<li><a href="#">LOTION</a></li>
+									<li><a href="#">ESSEN..</a></li>
+									<li><a href="#">CREAM</a></li>
+									<li><a href="#">EYE CARE</a></li>
+									<li><a href="#">MIST</a></li>
+								</ul>
+							</nav>
+						</div>
+						<hr size="5">
+					</div>
+					<!-- product-content 3a -->
+					<div class="row   row-custom">
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image1.jpg" class="product-skincare-image">
+								<p>DR.BELMEUR PANTHENOL SOOTHING GEL CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/skincare-hotitem-2.jpg" class="product-skincare-image">
+								<p>YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image2.jpg" class="product-skincare-image">
+								<p>THE THERAPY OIL BLENDING FORMULA SERUM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image3.jpg" class="product-skincare-image">
+								<p>THE SIGNATURE KERATIN CALMING CREAM</p>
+							</div>
+						</div>
+					</div>
+					<!-- product content 3b -->
+					<div class="row   row-custom">
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image4.jpg" class="product-skincare-image">
+								<p>YEHWADAM REVITALIZING EYE CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image5.jpg" class="product-skincare-image">
+								<p>YEHWADAM REVITALIZING CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image6.jpg" class="product-skincare-image">
+								<p>YEHWADAM REVITALIZING SERUM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image7.jpg" class="product-skincare-image">
+								<p>YEHWADAM REVITALIZING EMULSION</p>
+							</div>
+						</div>
+					</div>
+					<div class="row   row-custom">
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image8.jpg" class="product-skincare-image">
+								<p>YEHWADAM REVITALIZING TONER</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image9.jpg" class="product-skincare-image">
+								<p>DR.BELMEUR DAILY REPAIR TONER</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image10.jpg" class="product-skincare-image">
+								<p>JEJU VOLCANIC LAVA PORE ESSENCE</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image11.jpg" class="product-skincare-image">
+								<p>JEJU VOLCANIC LAVA PORE LOTION</p>
+							</div>
+						</div>
+					</div>
+					<div class="row   row-custom">
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image12.jpg" class="product-skincare-image">
+								<p>YEHWADAM WHITE GINSENG COLLAGEN PEARL CAPSULE CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image13.jpg" class="product-skincare-image">
+								<p>THE THERAPY ANTI-AGING NO SHINE HYDRATING CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image14.jpg" class="product-skincare-image">
+								<p>THE THERAPY HYDRATING ANTI-AGING CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image15.jpg" class="product-skincare-image">
+								<p>THE THERAPY HYDRATING FORMULA EMULSION</p>
+							</div>
+						</div>
+					</div>
+					<div class="row   row-custom">
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image16.jpg" class="product-skincare-image">
+								<p>THE THERAPY FIRST SERUM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image17.jpg" class="product-skincare-image">
+								<p>THE SIGNATURE SKIN CONDITIONING SERUM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image18.jpg" class="product-skincare-image">
+								<p>
+								POMEGRANATE AND COLLAGEN VOLUME LIFTING EYE CREAM</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12 col-md-5-custom ">
+							<div align="center" class="produt-skincare-border">
+								<img src="../assets/img/product_skincare_image19.jpg" class="product-skincare-image">
+								<p>POMEGRANATE AND COLLAGEN VOLUME LIFTING SERUM</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-12">
+					sdafsadf
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer -->
+	<div id="footer"></div>
+	<button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
 </body>
-
 </html>
 <script type="text/javascript">
-    $(document).ready(function() {
-        //render header footer
-        $("#header").html("<object width=\"100%\" height=\"280px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-
-        $("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-        //hover submenu
-        $(".sub-menu-dropdown").onmouseover(function() {
-            $("#ul-sub-menu-dropdown").addClass(" afterhover");
-        })
-        $(".sub-menu-dropdown").onmouseout(function() {
-            $("#ul-sub-menu-dropdown").removeClass("afterhover");
-        })
-    })
+$(document).ready(function() {
+//render header footer
+$("#header").html("<object width=\"100%\" height=\"280px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+$("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+//hover submenu
+$(".sub-menu-dropdown").onmouseover(function() {
+$("#ul-sub-menu-dropdown").addClass(" afterhover");
+})
+$(".sub-menu-dropdown").onmouseout(function() {
+$("#ul-sub-menu-dropdown").removeClass("afterhover");
+})
+})
+</script>
+<script type="text/javascript">
+window.onscroll = function() {
+scrollFunction()
+};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+document.getElementById("btnTop").style.display = "block";
+} else {
+document.getElementById("btnTop").style.display = "none";
+}
+}
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 </script>
