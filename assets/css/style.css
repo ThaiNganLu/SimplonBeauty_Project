@@ -47,6 +47,42 @@ a:active {
 
 /*logo*/
 
+.btn-2 {
+    letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+    letter-spacing: 5px;
+}
+
+.btn-2:after,
+.btn-2:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+    backface-visibility: hidden;
+    border-color: pink;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+}
+
+.btn-2:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 100%;
+}
+
 .imgLogo {
     width: 15%;
     height: auto;
@@ -490,14 +526,6 @@ a:active {
 /*dropdown menu*/
 
 li.sub-menu-dropdown:hover {}
-
-.afterhover {
-    display: block!important;
-}
-
-.outhover {
-    display: none!important;
-}
 
 
 /*CSS Button*/
