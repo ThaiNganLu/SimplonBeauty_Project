@@ -468,7 +468,7 @@ a:active {
 .product-skincare-image {
     width: 183.75px;
     height: 227.7px;
-    width: 70%;
+    width: 100%;
 }
 
 .col-md-5-custom {
@@ -584,6 +584,7 @@ figure.effect-sadie:hover h2 {
     color: #fff;
     -webkit-transform: translate3d(0, -150%, 0) translate3d(0, -40px, 0);
     transform: translate3d(0, -150%, 0) translate3d(0, -40px, 0);
+    opacity: 1;
 }
 
 figure.effect-sadie:hover figcaption::before,
@@ -596,7 +597,6 @@ figure.effect-sadie:hover p {
 .grid {
     position: relative;
     margin: 0 auto;
-    padding: 1em 0 4em;
     max-width: 1000px;
     list-style: none;
     text-align: center;
@@ -606,7 +606,6 @@ figure.effect-sadie:hover p {
     position: relative;
     float: left;
     overflow: hidden;
-    margin: 10px 1%;
     min-width: 100%;
     max-width: 480px;
     max-height: 360px;
@@ -657,6 +656,7 @@ figure.effect-sadie:hover p {
 .grid figure h2 {
     word-spacing: 0.25em;
     font-weight: 40;
+    opacity: 0.3;
 }
 
 .grid figure h2,
