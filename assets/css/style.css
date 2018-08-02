@@ -668,3 +668,14 @@ figure.effect-sadie:hover p {
     letter-spacing: 1px;
     font-size: 68.5%;
 }
+
+.product-child {
+    width: 500px;
+    height: 500px;
+}
+
+.product-chlid-list li {
+    padding-top: 20px;
+}
+
+.product-chlid-list {}
