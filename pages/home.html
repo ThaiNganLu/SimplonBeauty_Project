@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>TNBeauty</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <div id="header"></div>
-    <!-- main menu -->
-    <nav class="navbar navbar-default navbar-default-custom">
-        <div class="container-fluid table-custom">
-            <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                <li><a href="home.html" class="btn-2">HOME</a></li>
-                <li><a href="skincare.html" class="btn-2">SKIN CARE</a>
+    <head>
+        <meta charset="UTF-8">
+        <title>TNBeauty</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <!-- main menu -->
+        <nav class="navbar navbar-default navbar-default-custom" style="height: 70px;">
+            <div class="container-fluid table-custom">
+                <ul id="main-menu" class="nav navbar-nav horizontal-list">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="skincare.html">SKIN CARE</a>
                     <ul class="sub-menu">
                     </ul>
                 </li>
-                <li><a href="mask.html" class="btn-2">MASK/PACK</a></li>
-                <li><a href="makeup.html" class="btn-2">MAKE UP</a></li>
-                <li><a href="body-hair.html" class="btn-2">BODY/HAIR</a></li>
-                <li><a href="nail.html" class="btn-2">NAIL</a></li>
+                <li><a href="mask.html">MASK/PACK</a></li>
+                <li><a href="makeup.html">MAKE UP</a></li>
+                <li><a href="body-hair.html">BODY/HAIR</a></li>
+                <li><a href="nail.html">NAIL</a></li>
             </ul>
         </div>
     </nav>
     <section id="template">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 30px">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" style="margin-top: -2%">
                 <div class="item active">
                     <img src="../assets/img/SliderImage1.jpg" class="SliderImage">
@@ -64,10 +62,18 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="wow lightSpeedIn" data-wow-duration="0" data-wow-delay="0" data-wow-iteration="300" data-wow-offset="300" style="margin-top: 2%">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+                <span>Toggle Sidebar</span>
+                </button>
+            </div>
+        </nav>
+        <div class="wow lightSpeedIn" data-wow-duration="0" data-wow-delay="0" data-wow-iteration="1" data-wow-offset="1" style="margin-top: 2%">
             <h1 align="center">The Great Place for Relax & Heal</h1>
             <p align="center" class="Document">Aromatherapy massage is an innocuous therapeutic massage that employs essential oils extracted from fruits, leaves, woods, resins, stems, and flowers of plants and trees in a way that can improve physical, emotional, and mental health. These
-                essential oils can be used individually or blended with other oils to create different “recipes” & massaged into the body for different effects.</p>
+            essential oils can be used individually or blended with other oils to create different “recipes” & massaged into the body for different effects.</p>
         </div>
         <div class="home-content2">
             <div class="container">
@@ -79,150 +85,147 @@
                         <img src="../assets/img/productskincare.jpg" class="home-productskincare">
                         <div class="middle">
                             <div class="preview-text"><a href="#" class="home-preview-a">View more</a>
-                            </div>
                         </div>
-                        <h4 class="home-textskincare">Skin Care Products</h4>
-                        <p class="home-textcaptionskincare">Include your choice of skin cleansing or basic skin care or boosting skin or sunscreen!</p>
                     </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <div align="center" class="preview">
-                        <img src="../assets/img/home-mask-pake.png" class="home-productmask">
-                        <div class="middle">
-                            <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
-                        </div>
-                        <h4 class="home-textmask">Mask Pack Products</h4>
-                        <p class="home-textcaptionmask">Include your choice of paper mask or wash mask or peeling mask</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <div align="center" class="preview">
-                        <img src="../assets/img/SliderImage8.png" class="home-productbody">
-                        <div class="middle">
-                            <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
-                        </div>
-                        <h4 class="home-textbody">Body Products</h4>
-                        <p class="home-textcaptionbody">Include your choice of shower gel or body cream or perfume or hair dye</p>
-                    </div>
+                    <h4 class="home-textskincare">Skin Care Products</h4>
+                    <p class="home-textcaptionskincare">Include your choice of skin cleansing or basic skin care or boosting skin or sunscreen!</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-xs-12">
-                    <div align="center" class="preview">
-                        <img src="../assets/img/SliderImage9.jpg" class="home-productmakeup">
-                        <div class="middle">
-                            <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
-                        </div>
-                        <h4 class="home-textmakeup">Make Up Products</h4>
-                        <p class="home-textcaptionslip">Include your choice of lipstick or cream liner or cream effect</p>
+            <div class="col-md-4 col-xs-12">
+                <div align="center" class="preview">
+                    <img src="../assets/img/home-mask-pake.png" class="home-productmask">
+                    <div class="middle">
+                        <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
                     </div>
+                    <h4 class="home-textmask">Mask Pack Products</h4>
+                    <p class="home-textcaptionmask">Include your choice of paper mask or wash mask or peeling mask</p>
                 </div>
-                <div class="col-md-4 col-xs-12">
-                    <div align="center" class="preview">
-                        <img src="../assets/img/SliderImage10.jpg" class="home-productnail">
-                        <div class="middle">
-                            <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
-                        </div>
-                        <h4 class="home-textnail">Nail Products</h4>
-                        <p class="home-textcaptionnail">Include your choice of nail color or nail care or nail tools</p>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div align="center" class="preview">
+                    <img src="../assets/img/SliderImage8.png" class="home-productbody">
+                    <div class="middle">
+                        <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
                     </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <div align="center" class="preview">
-                        <img src="../assets/img/Gift.png" class="home-gift">
-                        <div class="middle" align="center">
-                            <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
-                        </div>
-                        <h4 class="home-textgift">Holiday Special</h4>
-                        <p class="home-textcaptiongift">We discount 25% on all products they buy in their month of birth! However, this offer cannot be combined with other discounts</p>
-                    </div>
+                    <h4 class="home-textbody">Body Products</h4>
+                    <p class="home-textcaptionbody">Include your choice of shower gel or body cream or perfume or hair dye</p>
                 </div>
             </div>
         </div>
-        <div class="home-content3 animated fadeInDown">
-            <p class="GhiChu" align="center">We Hope You Don’t Fade up to Visit Our Parlour</p>
-            <p align="center">Our Expert Beautician very careful about any customer and service so we hope they can fullfil your expecttion so please come to our parlour and check our environment and service quality</p>
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div align="center" class="preview">
+                    <img src="../assets/img/SliderImage9.jpg" class="home-productmakeup">
+                    <div class="middle">
+                        <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
+                    </div>
+                    <h4 class="home-textmakeup">Make Up Products</h4>
+                    <p class="home-textcaptionslip">Include your choice of lipstick or cream liner or cream effect</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div align="center" class="preview">
+                    <img src="../assets/img/SliderImage10.jpg" class="home-productnail">
+                    <div class="middle">
+                        <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
+                    </div>
+                    <h4 class="home-textnail">Nail Products</h4>
+                    <p class="home-textcaptionnail">Include your choice of nail color or nail care or nail tools</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div align="center" class="preview">
+                    <img src="../assets/img/Gift.png" class="home-gift">
+                    <div class="middle" align="center">
+                        <div class="preview-text"><a href="#" class="home-preview-a">View more</a></div>
+                    </div>
+                    <h4 class="home-textgift">Holiday Special</h4>
+                    <p class="home-textcaptiongift">We discount 25% on all products they buy in their month of birth! However, this offer cannot be combined with other discounts</p>
+                </div>
+            </div>
         </div>
-        <!-- create button go to top -->
-        <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
-    </section>
-    <div id="footer">
     </div>
+    <div class="home-content3 animated fadeInDown">
+        <p class="GhiChu" align="center">We Hope You Don’t Fade up to Visit Our Parlour</p>
+        <p align="center">Our Expert Beautician very careful about any customer and service so we hope they can fullfil your expecttion so please come to our parlour and check our environment and service quality</p>
+    </div>
+    <!-- create button go to top -->
+    <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
+</section>
+<div id="footer">
+</div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
 </html>
 <script type="text/javascript">
-    //render part
-    $(document).ready(function() {
-        $("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-        $("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-    })
+//render part
+$(document).ready(function() {
+$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+$("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+})
 </script>
 <script type="text/javascript">
-    //set active class menu
-    function afterClick(idElement) {
-        var ul = document.getElementById("main-menu");
-        var items = ul.getElementsByTagName("li");
-        for (var i = 0; i < items.length; ++i) {
-            var n = items[i].className.indexOf('active');
-            if (n != -1)
-                items[i].className = items[i].className.replace('active', " ");
-        }
-        document.getElementById(idElement).className += ' active';
-    }
+//set active class menu
+function afterClick(idElement) {
+var ul = document.getElementById("main-menu");
+var items = ul.getElementsByTagName("li");
+for (var i = 0; i < items.length; ++i) {
+var n = items[i].className.indexOf('active');
+if (n != -1)
+items[i].className = items[i].className.replace('active', " ");
+}
+document.getElementById(idElement).className += ' active';
+}
 </script>
 <script>
-    //Dao chuoi
-    function reverseString(str) {
-        // Step 1. Use the split() method to return a new array
-        var splitString = str.split(""); // var splitString = "hello".split("");
-        // ["h", "e", "l", "l", "o"]
-        // Step 2. Use the reverse() method to reverse the new created array
-        var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
-        // ["o", "l", "l", "e", "h"]
-        // Step 3. Use the join() method to join all elements of the array into a string
-        var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
-        // "olleh"
-        //Step 4. Return the reversed string
-        return joinArray; // "olleh"
-    }
-    //Lay ten trang web tu url
-    function getidMenufromURL() {
-        var str = window.location.pathname;
-        if (str != "") {
-            var reversestr = reverseString(str);
-            var input = reversestr.substring(reversestr.indexOf('.') + 1, reversestr.indexOf('/'));
-            afterClick(reverseString(input));
-        } else
-            afterClick('home');
-    }
+//Dao chuoi
+function reverseString(str) {
+// Step 1. Use the split() method to return a new array
+var splitString = str.split(""); // var splitString = "hello".split("");
+// ["h", "e", "l", "l", "o"]
+// Step 2. Use the reverse() method to reverse the new created array
+var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
+// ["o", "l", "l", "e", "h"]
+// Step 3. Use the join() method to join all elements of the array into a string
+var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
+// "olleh"
+//Step 4. Return the reversed string
+return joinArray; // "olleh"
+}
+//Lay ten trang web tu url
+function getidMenufromURL() {
+var str = window.location.pathname;
+if (str != "") {
+var reversestr = reverseString(str);
+var input = reversestr.substring(reversestr.indexOf('.') + 1, reversestr.indexOf('/'));
+afterClick(reverseString(input));
+} else
+afterClick('home');
+}
 </script>
 <script type="text/javascript">
-    // jQuery(document).ready(function() {
-    // });
+// jQuery(document).ready(function() {
+// });
 </script>
 <!-- JS button top -->
 <script type="text/javascript">
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("btnTop").style.display = "block";
-        } else {
-            document.getElementById("btnTop").style.display = "none";
-        }
-    }
-
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+window.onscroll = function() {
+scrollFunction()
+};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+document.getElementById("btnTop").style.display = "block";
+} else {
+document.getElementById("btnTop").style.display = "none";
+}
+}
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 </script>
 <!-- create animate = wow -->
 <script>
-    new WOW().init();
+new WOW().init();
 </script>
 <!-- Create animate funciton -->

@@ -370,7 +370,7 @@ a:active {
     font-weight: bold;
 }
 
-.skincare-line hr {
+ hr.skincare-line {
     border-style: solid hidden solid hidden!important;
     border-width: 2px!important;
     height: auto!important;
@@ -479,6 +479,7 @@ a:active {
 .row-custom {
     margin-right: 0 !important;
     margin-left: 0 !important;
+    margin-bottom: 5%;
 }
 
 .produt-skincare-border {
@@ -569,7 +570,7 @@ figure.effect-sadie p {
     transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-sadie p {
+figure.effect-sadie p{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -609,7 +610,7 @@ figure.effect-sadie:hover p {
     min-width: 100%;
     max-width: 480px;
     max-height: 360px;
-    background: #3085a3;
+    background: white;
     text-align: center;
     cursor: pointer;
 }
@@ -679,3 +680,177 @@ figure.effect-sadie:hover p {
 }
 
 .product-chlid-list {}
+/*skincare-sale-banner*/
+.skincare-sale-banner
+{
+    margin: 5% 0 5% 0;
+
+}
+.jumbotron-skincare-custom
+{
+    background-color: pink!important;
+}
+.skincare-content-tile
+{
+    margin-bottom: 5%;
+}
+/*left sidebar*/
+#sidebar.active {
+    display: none;
+}
+#sidebarCollapse
+{
+    position: fixed;
+}
+.menufixed
+{
+    background-color: #6d7fcc;
+    width: 12%;
+    position: fixed;
+    margin-top: 0.7%;
+    display: block;
+}
+.left-sidebar
+{
+    width: 12%;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+.OthersProduct
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.titleOthersProduct
+{
+    background-color: #ddd;
+    padding: 20px 0 5px 0;
+    margin-bottom: 10px;
+}
+.titleOthersProduct p
+{
+    vertical-align: middle;
+}
+/*quantum*/
+@media ( max-width: 585px ) {
+    .input-group span.input-group-btn,.input-group input,.input-group button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .input-group {
+        position: relative;   
+    }
+    .input-group span.data-up{
+        /*position: absolute;*/
+        top: 0;
+    }
+    .input-group span.data-dwn{
+        /*position: absolute;*/
+        bottom: 0;
+    }
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+        margin-left:0;
+    }
+    .input-group-btn.btn
+    {
+        padding: 0!important;
+    }
+
+}
+.input-group
+{
+    display: inline!important;
+}
+
+.input-group .form-control
+{
+    display: inline!important;
+}
+.input-group-btn
+{
+    display: inline!important;
+}
+img.imgShoppingCart
+{
+    width: 100%;
+    height: 100px;
+}
+.col-md-8-custom
+{
+    padding: 0px!important;
+}
+.mini-shoppingCart
+{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.btn-custom
+{
+    padding: 2px 5px 2px 5px!important;
+    background-color: white!important;
+    color: black!important;
+    border-radius: 0px!important;
+}
+.order-odd
+{
+    /*background-color: #eee;*/
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.skincare-small-line
+{
+    border-style: solid hidden solid hidden!important;
+    border-width: 1px!important;
+    height: auto!important;
+    border-top: 1px solid black!important;
+}
+.form-control-custom {
+    width: 40px!important;
+    height: 26px!important;
+}
+.pay
+{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+input[type=text]#total
+{
+    width: 70%;
+}
+.btn-pay-custom
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
