@@ -1,159 +1,183 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Make up</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-    <!-- header -->
-    <div id="header"></div>
-    <!-- main menu -->
-    <nav class="navbar navbar-default navbar-default-custom">
-        <div class="container-fluid table-custom">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                    <li><a href="home.html" class="btn-2">HOME</a></li>
-                    <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
-                        <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
-                            <li><a href="product-skin.html">Skin</a></li>
-                            <li><a href="product-lotion.html">Loction</a></li>
-                            <li><a href="product-essence.html">Essence</a></li>
-                            <li><a href="product-cream.html">Cream</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
-                    <li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
-                    <li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
-                    <li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- content -->
-    <section id="template">
-        <div class="row">
-            <div class="container">
-                <div class="col-md-6 col-xs-12">
-                    <div>
-                        <img src="../assets/img/makeup-hotitem-3.jpg" class="product-child">
+    <head>
+        <meta charset="UTF-8">
+        <title>Make up</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- banner -->
+        <div id="main">
+            <div class="top_panel">
+                <div class="top_panel_content">
+                    <div class="container">
+                        <div class="top_panel_left">
+                            <div class="col-md-6 col-xs-12">
+                                <ul type="none">
+                                    <li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
+                                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
+                                    <li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
+                                    <li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
+                                    <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
+                                    <li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top_panel_right">
+                            <div class="col-md-6 col-xs-12">
+                                <p align="right" style="color: white">
+                                    <i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    
+                                    <a href="#" style="color: white"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <h2>ANTI-DARKENING CUSHION SPF50+ PA+++</h2>
-                    <hr>
-                    <ul class="product-chlid-list">
-                        <li style="color: red">
-                            <h1>US: $12 </h1>
+            </div>
+            <!-- header -->
+            <div id="header"></div>
+            <!-- main menu -->
+            <nav class="navbar navbar-default navbar-default-custom">
+                <div class="container-fluid table-custom">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul id="main-menu" class="nav navbar-nav horizontal-list">
+                            <li><a href="home.html" class="btn-2">HOME</a></li>
+                            <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
+                            <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
+                                <li><a href="product-skin.html">Skin</a></li>
+                                <li><a href="product-lotion.html">Loction</a></li>
+                                <li><a href="product-essence.html">Essence</a></li>
+                                <li><a href="product-cream.html">Cream</a></li>
+                            </ul>
                         </li>
-                        <li>All Skin Types</li>
-                        <li>Wrinkle Flattening/Elasticity</li>
-                        <li>Skin Discoloration/Freckles</li>
-                        <li>Volume/Size: 15g</li>
+                        <li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
+                        <li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
+                        <li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
+                        <li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
                     </ul>
-                    <hr style="margin-top: 200px;">
-                </div>
-                <div class="col-md-12 col-xs-12" style="border-bottom: 1px solid;margin-bottom: 40px">
-                    <ul>
-                        <li style="list-style: circle;font-size: 18px">DETAILS</li>
-                    </ul>
-                    <hr>
-                    <h3>ANTI-DARKENING CUSHION SPF50+ PA+++</h3>
-                    <h6>This cushion keeps makeup looking as fresh as when you first applied it.</h6>
-                    <p style="color: green">Reduces appearance of wrinkles, Brightens skin tone, Filters and screens harmful UVA/UVB rays</p>
-                    <br>• This cushion, which features natural skin powder that results in a reduced appearance of white residue when applied to the face, conceals skin imperfections to create a natural look. • old and 950 ppm of hydrolyzed collagen) 
-                    <br>• The HD powder uses technology that helps spread pigment evenly to prevent color from becoming dark or dull and to illuminate skin tone. 
-                    <br>• The cushion contains lemon balm and chamomile extract to provide comfortable wear and citrus unshiu peel extract and diospyros kaki leaf extract to maintain your skin tone without making it dark or dull.
-                    <hr>
-                    <h4>DIRECTIONS</h4>
-                    Press the puff applicator to the cushion and lightly pat onto the face. Apply over areas of concern for more coverage. Replace the cushion with refill once the formula is depleted.
-                    <hr>
-                    <h4>CAUTION</h4>
-                    Discontinue use if irritation or rash occurs. Do not use on broken or abraded skin. Keep out of reach of children. Do not store at extreme temperatures or in direct sunlight.
-                    <hr>
-                    <h4>INGREDIENTS</h4>
-                    <h6>WATER•METHYL TRIMETHICONE•TITANIUM DIOXIDE•CYCLOPENTASILOXANE•DICAPRYLYL CARBONATE•CAPRYLYL METHICONE•ALCOHOL DENAT.•LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE•PHENYLBENZIMIDAZOLE SULFONIC ACID•NIACINAMIDE•HDI/TRIMETHYLOL HEXYLLACTONE CROSSPOLYMER•TROMETHAMINE•PEG-12 DIMETHICONE/PPG-20 CROSSPOLYMER•1,2-HEXANEDIOL•PANTHENOL•ACRYLATES/STEARYL ACRYLATE/DIMETHICONE METHACRYLATE COPOLYMER•CHOLESTEROL•SODIUM LAUROYL LACTYLATE•HYDROGENATED LECITHIN•CERAMIDE EOP•POLY(TRIPEPTIDE-6)•DESAMIDO COLLAGEN•ALTHAEA OFFICINALIS ROOT EXTRACT•CERAMIDE NP•PHYTOSPHINGOSINE•CERAMIDE AP•ANTHEMIS NOBILIS FLOWER EXTRACT•ALOE BARBADENSIS LEAF EXTRACT•PINUS DENSIFLORA LEAF EXTRACT•MELISSA OFFICINALIS FLOWER/LEAF/STEM WATER•CITRUS UNSHIU PEEL EXTRACT•DIOSPYROS KAKI LEAF EXTRACT•EUCALYPTUS GLOBULUS LEAF EXTRACT•ALUMINUM HYDROXIDE•ZINC STEARATE•STEARIC ACID•SORBITAN SESQUIISOSTEARATE•SORBITAN SESQUIOLEATE•SODIUM CHLORIDE•TOCOPHERYL ACETATE•DISTEARYLDIMONIUM CHLORIDE•DISTEARDIMONIUM HECTORITE•PALMITOYL PROLINE•PROPYLENE CARBONATE•SODIUM PALMITOYL SARCOSINATE•MAGNESIUM PALMITOYL GLUTAMATE•ADENOSINE•SILICA•TRIETHOXYCAPRYLYLSILANE•BIOSACCHARIDE GUM-1•PALMITIC ACID•TRIETHOXYSILYLETHYL POLYDIMETHYLSILOXYETHYL HEXYL DIMETHICONE•HYALURONIC ACID•HYDROXYAPATITE•METHYLPROPANEDIOL•BUTYLENE GLYCOL•ETHYLHEXYLGLYCERIN•XANTHAN GUM•CARBOMER•FRAGRANCE•MICA (CI 77019)•IRON OXIDES(CI 77491)•IRON OXIDES (CI 77492)•IRON OXIDES(CI 77499)
-                    </h6><br>
                 </div>
             </div>
-            <div align="center">
-                <iframe width="420" height="315"
-                src="https://www.youtube.com/embed/CfaLyDSPb_Y">
-                </iframe>
-            </div>
-            <div class="container">
-                <div class="col-md-12 col-xs-12">
-                    <h3>Feedback</h3>
-                    Please tell us what you think,any kind of feedback is highly appreciated.
-                    <form action="" method="post">
-                        <textarea name="" id="" cols="150" rows="10"></textarea>
-                        <button style="float: right;" id="submit">Submit</button>
-                    </form>
+        </nav>
+        <!-- content -->
+        <section id="template">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-6 col-xs-12">
+                        <div>
+                            <img src="../assets/img/makeup-hotitem-3.jpg" class="product-child">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h2>ANTI-DARKENING CUSHION SPF50+ PA+++</h2>
+                        <hr>
+                        <ul class="product-chlid-list">
+                            <li style="color: red">
+                                <h1>US: $12 </h1>
+                            </li>
+                            <li>All Skin Types</li>
+                            <li>Wrinkle Flattening/Elasticity</li>
+                            <li>Skin Discoloration/Freckles</li>
+                            <li>Volume/Size: 15g</li>
+                        </ul>
+                        <hr style="margin-top: 200px;">
+                    </div>
+                    <div class="col-md-12 col-xs-12" style="border-bottom: 1px solid;margin-bottom: 40px">
+                        <ul>
+                            <li style="list-style: circle;font-size: 18px">DETAILS</li>
+                        </ul>
+                        <hr>
+                        <h3>ANTI-DARKENING CUSHION SPF50+ PA+++</h3>
+                        <h6>This cushion keeps makeup looking as fresh as when you first applied it.</h6>
+                        <p style="color: green">Reduces appearance of wrinkles, Brightens skin tone, Filters and screens harmful UVA/UVB rays</p>
+                        <br>• This cushion, which features natural skin powder that results in a reduced appearance of white residue when applied to the face, conceals skin imperfections to create a natural look. • old and 950 ppm of hydrolyzed collagen)
+                        <br>• The HD powder uses technology that helps spread pigment evenly to prevent color from becoming dark or dull and to illuminate skin tone.
+                        <br>• The cushion contains lemon balm and chamomile extract to provide comfortable wear and citrus unshiu peel extract and diospyros kaki leaf extract to maintain your skin tone without making it dark or dull.
+                        <hr>
+                        <h4>DIRECTIONS</h4>
+                        Press the puff applicator to the cushion and lightly pat onto the face. Apply over areas of concern for more coverage. Replace the cushion with refill once the formula is depleted.
+                        <hr>
+                        <h4>CAUTION</h4>
+                        Discontinue use if irritation or rash occurs. Do not use on broken or abraded skin. Keep out of reach of children. Do not store at extreme temperatures or in direct sunlight.
+                        <hr>
+                        <h4>INGREDIENTS</h4>
+                        <h6>WATER•METHYL TRIMETHICONE•TITANIUM DIOXIDE•CYCLOPENTASILOXANE•DICAPRYLYL CARBONATE•CAPRYLYL METHICONE•ALCOHOL DENAT.•LAURYL PEG-9 POLYDIMETHYLSILOXYETHYL DIMETHICONE•PHENYLBENZIMIDAZOLE SULFONIC ACID•NIACINAMIDE•HDI/TRIMETHYLOL HEXYLLACTONE CROSSPOLYMER•TROMETHAMINE•PEG-12 DIMETHICONE/PPG-20 CROSSPOLYMER•1,2-HEXANEDIOL•PANTHENOL•ACRYLATES/STEARYL ACRYLATE/DIMETHICONE METHACRYLATE COPOLYMER•CHOLESTEROL•SODIUM LAUROYL LACTYLATE•HYDROGENATED LECITHIN•CERAMIDE EOP•POLY(TRIPEPTIDE-6)•DESAMIDO COLLAGEN•ALTHAEA OFFICINALIS ROOT EXTRACT•CERAMIDE NP•PHYTOSPHINGOSINE•CERAMIDE AP•ANTHEMIS NOBILIS FLOWER EXTRACT•ALOE BARBADENSIS LEAF EXTRACT•PINUS DENSIFLORA LEAF EXTRACT•MELISSA OFFICINALIS FLOWER/LEAF/STEM WATER•CITRUS UNSHIU PEEL EXTRACT•DIOSPYROS KAKI LEAF EXTRACT•EUCALYPTUS GLOBULUS LEAF EXTRACT•ALUMINUM HYDROXIDE•ZINC STEARATE•STEARIC ACID•SORBITAN SESQUIISOSTEARATE•SORBITAN SESQUIOLEATE•SODIUM CHLORIDE•TOCOPHERYL ACETATE•DISTEARYLDIMONIUM CHLORIDE•DISTEARDIMONIUM HECTORITE•PALMITOYL PROLINE•PROPYLENE CARBONATE•SODIUM PALMITOYL SARCOSINATE•MAGNESIUM PALMITOYL GLUTAMATE•ADENOSINE•SILICA•TRIETHOXYCAPRYLYLSILANE•BIOSACCHARIDE GUM-1•PALMITIC ACID•TRIETHOXYSILYLETHYL POLYDIMETHYLSILOXYETHYL HEXYL DIMETHICONE•HYALURONIC ACID•HYDROXYAPATITE•METHYLPROPANEDIOL•BUTYLENE GLYCOL•ETHYLHEXYLGLYCERIN•XANTHAN GUM•CARBOMER•FRAGRANCE•MICA (CI 77019)•IRON OXIDES(CI 77491)•IRON OXIDES (CI 77492)•IRON OXIDES(CI 77499)
+                        </h6><br>
+                    </div>
+                </div>
+                <div align="center">
+                    <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/CfaLyDSPb_Y">
+                    </iframe>
+                </div>
+                <div class="container">
+                    <div class="col-md-12 col-xs-12">
+                        <h3>Feedback</h3>
+                        Please tell us what you think,any kind of feedback is highly appreciated.
+                        <form action="" method="post">
+                            <textarea name="" id="" cols="150" rows="10"></textarea>
+                            <button style="float: right;" id="submit">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- footer -->
-    <div id="footer"></div>
-    <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
-</body>
-
+        </section>
+        <!-- footer -->
+        <div id="footer"></div>
+        <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
+    </body>
 </html>
 <script type="text/javascript">
-    $(document).ready(function() {
-        //render header footer
-
-        $("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-
-        $("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-
-        //hover submenu
-        $(".sub-menu-dropdown").onmouseover(function() {
-            $("#ul-sub-menu-dropdown").addClass(" afterhover");
-        })
-        $(".sub-menu-dropdown").onmouseout(function() {
-            $("#ul-sub-menu-dropdown").removeClass("afterhover");
-        })
-    })
+$(document).ready(function() {
+//render header footer
+$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+$("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+//hover submenu
+$(".sub-menu-dropdown").onmouseover(function() {
+$("#ul-sub-menu-dropdown").addClass(" afterhover");
+})
+$(".sub-menu-dropdown").onmouseout(function() {
+$("#ul-sub-menu-dropdown").removeClass("afterhover");
+})
+})
 </script>
 <script type="text/javascript">
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("btnTop").style.display = "block";
-        } else {
-            document.getElementById("btnTop").style.display = "none";
-        }
-    }
-
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
+window.onscroll = function() {
+scrollFunction()
+};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+document.getElementById("btnTop").style.display = "block";
+} else {
+document.getElementById("btnTop").style.display = "none";
+}
+}
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 </script>
 <script>
-    document.getElementById('submit').onclick = function() {
-        alert('Thank you for your feedback!!!')
-    };
+document.getElementById('submit').onclick = function() {
+alert('Thank you for your feedback!!!')
+};
 </script>
