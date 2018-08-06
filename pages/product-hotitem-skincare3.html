@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Skincare</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/animate.css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <!-- header -->
-        <div id="header"></div>
-        <!-- main menu -->
-        <nav class="navbar navbar-default navbar-default-custom">
-            <div class="container-fluid table-custom">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Skincare</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main menu -->
+    <nav class="navbar navbar-default navbar-default-custom">
+        <div class="container-fluid table-custom">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                        <li><a href="home.html" class="btn-2">HOME</a></li>
-                        <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="main-menu" class="nav navbar-nav horizontal-list">
+                    <li><a href="home.html" class="btn-2">HOME</a></li>
+                    <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
                         <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
                             <li><a href="product-skin.html">Skin</a></li>
                             <li><a href="product-lotion.html">Loction</a></li>
@@ -60,7 +62,9 @@
                     <h2>THE THERAPY OIL BLENDING FORMULA CREAM</h2>
                     <hr>
                     <ul class="product-chlid-list">
-                        <li style="color: red"><h1>US: $7.8 </h2></li>
+                        <li style="color: red">
+                            <h1>US: $7.8 </h2>
+                        </li>
                         <li>Sensitive/Trouble-Prone</li>
                         <li>Moisturizing/Soothing</li>
                         <li>Volume/Size: 100ml</li>
@@ -97,40 +101,59 @@
                     <source src="../assets/video/hotitem3.mp4" type="video/mp4"></sup>
                 </video>
             </div>
+            <div class="container">
+                <div class="col-md-12 col-xs-12">
+                    <h3>Feedback</h3>
+                    Please tell us what you think,any kind of feedback is highly appreciated.
+                    <form action="" method="post">
+                        <textarea name="" id="" cols="150" rows="10"></textarea>
+                        <button style="float: right;" id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <!-- footer -->
     <div id="footer"></div>
     <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
 </body>
+
 </html>
 <script type="text/javascript">
-$(document).ready(function() {
-//render header footer
-$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-$("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-//hover submenu
-$(".sub-menu-dropdown").onmouseover(function() {
-$("#ul-sub-menu-dropdown").addClass(" afterhover");
-})
-$(".sub-menu-dropdown").onmouseout(function() {
-$("#ul-sub-menu-dropdown").removeClass("afterhover");
-})
-})
+    $(document).ready(function() {
+        //render header footer
+        $("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+
+        $("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+        //hover submenu
+        $(".sub-menu-dropdown").onmouseover(function() {
+            $("#ul-sub-menu-dropdown").addClass(" afterhover");
+        })
+        $(".sub-menu-dropdown").onmouseout(function() {
+            $("#ul-sub-menu-dropdown").removeClass("afterhover");
+        })
+    })
 </script>
 <script type="text/javascript">
-window.onscroll = function() {
-scrollFunction()
-};
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-document.getElementById("btnTop").style.display = "block";
-} else {
-document.getElementById("btnTop").style.display = "none";
-}
-}
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("btnTop").style.display = "block";
+        } else {
+            document.getElementById("btnTop").style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+<script>
+    document.getElementById('submit').onclick = function() {
+        alert('Thank you for your feedback!!!')
+    };
 </script>
