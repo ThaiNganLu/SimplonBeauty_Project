@@ -873,7 +873,7 @@ input[type=text]#total {
     padding: 15px;
     border: 1px solid #ddd;
     position: absolute;
-    margin-top: -89px;
+    margin-top: -70px;
     margin-left: 75%;
 }
 
@@ -890,7 +890,7 @@ input:focus {
     display: none;
     width: 400px;
     position: absolute;
-    margin-top: -498px;
+    margin-top: -500px;
     margin-left: 72.5%;
 }
 
