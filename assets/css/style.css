@@ -370,7 +370,7 @@ a:active {
     font-weight: bold;
 }
 
- hr.skincare-line {
+hr.skincare-line {
     border-style: solid hidden solid hidden!important;
     border-width: 2px!important;
     height: auto!important;
@@ -570,7 +570,7 @@ figure.effect-sadie p {
     transition: opacity 0.35s, transform 0.35s;
 }
 
-figure.effect-sadie p{
+figure.effect-sadie p {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -657,7 +657,7 @@ figure.effect-sadie:hover p {
 .grid figure h2 {
     word-spacing: 0.25em;
     font-weight: 40;
-    opacity: 0.3;
+    opacity: 0;
 }
 
 .grid figure h2,
@@ -680,40 +680,45 @@ figure.effect-sadie:hover p {
 }
 
 .product-chlid-list {}
-/*skincare-sale-banner*/
-.skincare-sale-banner
-{
-    margin: 5% 0 5% 0;
 
+
+/*skincare-sale-banner*/
+
+.skincare-sale-banner {
+    margin: 5% 0 5% 0;
 }
-.jumbotron-skincare-custom
-{
+
+.jumbotron-skincare-custom {
     background-color: pink!important;
 }
-.skincare-content-tile
-{
+
+.skincare-content-tile {
     margin-bottom: 5%;
 }
+
+
 /*left sidebar*/
+
 #sidebar.active {
     display: none;
 }
-#sidebarCollapse
-{
+
+#sidebarCollapse {
     position: fixed;
 }
-.menufixed
-{
+
+.menufixed {
     background-color: #6d7fcc;
     width: 12%;
     position: fixed;
     margin-top: 0.7%;
     display: block;
 }
-.left-sidebar
-{
+
+.left-sidebar {
     width: 12%;
 }
+
 #sidebar .sidebar-header {
     padding: 20px;
     background: #6d7fcc;
@@ -734,123 +739,176 @@ figure.effect-sadie:hover p {
     font-size: 1.1em;
     display: block;
 }
+
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
 }
-.OthersProduct
-{
+
+.OthersProduct {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-.titleOthersProduct
-{
+
+.titleOthersProduct {
     background-color: #ddd;
     padding: 20px 0 5px 0;
     margin-bottom: 10px;
 }
-.titleOthersProduct p
-{
+
+.titleOthersProduct p {
     vertical-align: middle;
 }
+
+
 /*quantum*/
-@media ( max-width: 585px ) {
-    .input-group span.input-group-btn,.input-group input,.input-group button{
+
+@media ( max-width: 585px) {
+    .input-group span.input-group-btn,
+    .input-group input,
+    .input-group button {
         display: block;
         width: 100%;
         border-radius: 0;
         margin: 0;
     }
     .input-group {
-        position: relative;   
+        position: relative;
     }
-    .input-group span.data-up{
+    .input-group span.data-up {
         /*position: absolute;*/
         top: 0;
     }
-    .input-group span.data-dwn{
+    .input-group span.data-dwn {
         /*position: absolute;*/
         bottom: 0;
     }
     .form-control.text-center {
         margin: 34px 0;
     }
-    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
-        margin-left:0;
+    .input-group-btn:last-child>.btn,
+    .input-group-btn:last-child>.btn-group {
+        margin-left: 0;
     }
-    .input-group-btn.btn
-    {
+    .input-group-btn.btn {
         padding: 0!important;
     }
-
-}
-.input-group
-{
-    display: inline!important;
 }
 
-.input-group .form-control
-{
+.input-group {
     display: inline!important;
 }
-.input-group-btn
-{
+
+.input-group .form-control {
     display: inline!important;
 }
-img.imgShoppingCart
-{
+
+.input-group-btn {
+    display: inline!important;
+}
+
+img.imgShoppingCart {
     width: 100%;
     height: 100px;
 }
-.col-md-8-custom
-{
+
+.col-md-8-custom {
     padding: 0px!important;
 }
-.mini-shoppingCart
-{
+
+.mini-shoppingCart {
     margin-top: 8%;
     margin-bottom: 5%;
 }
-.btn-custom
-{
+
+.btn-custom {
     padding: 2px 5px 2px 5px!important;
     background-color: white!important;
     color: black!important;
     border-radius: 0px!important;
 }
-.order-odd
-{
+
+.order-odd {
     /*background-color: #eee;*/
     margin-top: 2%;
     margin-bottom: 10%;
 }
-.skincare-small-line
-{
+
+.skincare-small-line {
     border-style: solid hidden solid hidden!important;
     border-width: 1px!important;
     height: auto!important;
     border-top: 1px solid black!important;
 }
+
 .form-control-custom {
     width: 40px!important;
     height: 26px!important;
 }
-.pay
-{
+
+.pay {
     margin-bottom: 2%;
     margin-top: 2%;
 }
-input[type=text]#total
-{
+
+input[type=text]#total {
     width: 70%;
 }
-.btn-pay-custom
-{
+
+.btn-pay-custom {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    position: absolute;
+    margin-top: -89px;
+    margin-left: 75%;
+}
+
+input:focus {
+    outline: none;
+}
+
+#template {
+    position: relative;
+}
+
+#myUL {
+    list-style-type: none;
+    display: none;
+    width: 400px;
+    position: absolute;
+    margin-top: -498px;
+    margin-left: 72.5%;
+}
+
+#myUL li a {
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    padding-left: 20px;
+}
+
+#myUL li a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
 }
