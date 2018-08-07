@@ -1025,3 +1025,20 @@ input[type=email] {
 .form-custom {
     margin-left: 30%
 }
+/*PayMent*/
+.payment-custom input[type=text]
+{
+    width: 100%
+}
+.payment-custom input[type=email]
+{
+    width: 100%;
+}
+.payment-custom select
+{
+    width: 100%;
+}
+.payment-custom textarea
+{
+    width: 100%;
+}
