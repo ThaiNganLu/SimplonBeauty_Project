@@ -912,9 +912,11 @@ input:focus {
 #myUL li a:hover:not(.header) {
     background-color: #eee;
 }
+
+
 /*btn number shopping cart*/
-.number-shoppingCart-quantum
-{
+
+.number-shoppingCart-quantum {
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -924,3 +926,25 @@ input:focus {
     margin-left: 10%;
 }
 
+
+/*Thumnail*/
+
+.thum-photo .thum img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e7e7e7;
+    opacity: 0.4;
+}
+
+.thum-photo .current img {
+    opacity: 1;
+}
+
+.thum-photo .thum {
+    float: left;
+    width: 30%;
+}
+
+.thum-photo {
+    margin-top: 20px;
+}
