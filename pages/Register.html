@@ -1,268 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <title>TNBeauty</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/animate.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simplon's Form Register</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/css/form-elements.css">
+        <link rel="stylesheet" href="../assets/css/style-reg.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Favicon and touch icons -->
+         
     </head>
     <body>
-        <!-- banner -->
-        <div id="main">
-            <div class="top_panel">
-                <div class="top_panel_content">
-                    <div class="container">
-                        <div class="top_panel_left">
-                            <div class="col-md-6 col-xs-12">
-                                <ul type="none">
-                                    <li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
-                                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
-                                    <li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
-                                    <li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
-                                    <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
-                                    <li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                </ul>
+        <!-- Top menu -->
+        <nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="home.html">SimplonBeauty</a> -->
+                    <p align="left"><a href="home.html"><img src="../assets/img/home.png" width="5%"> &nbsp;&nbsp;HOME</a></p>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-navbar-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <span class="li-text">
+                                Contact us on
+                            </span>
+                            <a href="#"><strong>links</strong></a>
+                            <span class="li-text">
+                                here, or some icons:
+                            </span>
+                            <span class="li-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            
+        </div>
+        <!-- Top content -->
+        <div class="top-content">
+            
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 text">
+                            <div align="center">
+                                <a href="home.html"><img src="../assets/img/tnbeautylogo.jpg" width="50%" /></a>
                             </div>
+                            <h1><strong style="font-family: cursive;">What you do, the way you think, makes you beautiful</strong></h1>
+                            <p align="justify">Our mission is to provide skin care products, nutritional supplements and cosmetics of the highest quality from the luxury line to Vietnamese women at affordable prices. All products are selected by our own hands as well as our
+                            beauty experts. These products will help you - young women today have a new look and feel the most refined from the inside out.</p>
                         </div>
-                        <div class="top_panel_right">
-                            <div class="col-md-6 col-xs-12">
-                                <p align="right" style="color: white">
-                                    <i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    
-                                    <a href="#" style="color: white"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
+                        <div class="col-sm-5 form-box">
+                            <div class="form-top">
+                                <div class="form-top-left">
+                                    <h3>Sign up now</h3>
+                                    <p>Fill in the form below to get instant access:</p>
                                 </div>
+                                <div class="form-top-right">
+                                    <i class="fa fa-pencil"></i>
+                                </div>
+                                <div class="form-top-divider"></div>
+                            </div>
+                            <div class="form-bottom">
+                                <form role="form" action="" method="post" class="registration-form">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-first-name">First name</label>
+                                        <input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-last-name">Last name</label>
+                                        <input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-email">Email</label>
+                                        <input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="form-about-yourself">About yourself</label>
+                                        <textarea name="form-about-yourself" placeholder="About yourself..."
+                                        class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+                                    </div>
+                                    <button type="submit" id="btn-click" class="btn">Sign me up!</button>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- header -->
-            <div id="header"></div>
-            <!-- main menu -->
-            <nav class="navbar navbar-default navbar-default-custom">
-                <div class="container-fluid table-custom">
-                    <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                        <li><a href="home.html" class="btn-2">HOME</a></li>
-                        <li><a href="skincare.html" class="btn-2">SKIN CARE</a>
-                        <ul class="sub-menu">
-                        </ul>
-                    </li>
-                    <li><a href="mask.html" class="btn-2">MASK/PACK</a></li>
-                    <li><a href="makeup.html" class="btn-2">MAKE UP</a></li>
-                    <li><a href="body-hair.html" class="btn-2">BODY/HAIR</a></li>
-                    <li><a href="nail.html" class="btn-2">NAIL</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- section -->
-        <section id="template">
-            <div class="container">
-                <form action="" class="form-custom" id="frReg" name="frReg">
-                    <fieldset>
-                        <legend style="font-family: cursive;"><b><i>Register Member</i></b></legend>
-                        <label for="" style="text-align: left;"><b>Name</b></label>
-                        <div>
-                            <input type="text" id="txtFirst" name="txtFirst" placeholder="First">
-                            <input type="text" id="txtLast" name="txtLast" placeholder="Last">
-                        </div>
-                        <i class="fas fa-user-alt icon-user"></i><i class="fas fa-user-alt icon-last"></i>
-                        <br>
-                        <label for=""><b>Date of Birth</b></label>
-                        <label for="" class="Gender"><b>Gender</b></label>
-                        <div>
-                            <input type="Date" id="txtDate" name="txtDate">
-                            <input type="radio" id="Male" name="rdMale" class="Male-custom">Male
-                            <input type="radio" id="Female" name="rdFemale" class="Female-custom">Female
-                        </div>
-                        <i class="fas fa-calendar-alt icon-calendar"></i>
-                        <label for=""><b>Address</b></label>
-                        <div>
-                            <input type="text" id="txtAdd" name="txtAdd" placeholder="Street Address" class="View">
-                        </div>
-                        <i class="fas fa-home icon-home"></i>
-                        <div>
-                            <input type="text" id="txtAdd2" name="txtAdd2" placeholder="Address Line 2" class="Margin-Top View">
-                        </div>
-                        <i class="fas fa-home icon-home"></i>
-                        <div>
-                            <input type="text" id="txtCity" name="txtCity" placeholder="City">
-                            <input type="text" id="txtState" name="txtState" placeholder="State/Province" class="Margin-Top">
-                        </div>
-                        <i class="fas fa-home icon-home"></i>
-                        <i class="fas fa-home icon-State"></i>
-                        <div>
-                            <input type="text" id="txtPin" name="txtPin" placeholder="Pincode" class="Margin-Top">
-                            <select name="citi" id="citi" class="Margin-Top ViewSelect">
-                                <option value="None">Select Country</option>
-                                <option value="SaiGon">Sài Gòn</option>
-                                <option value="CanTho">Cần Thơ</option>
-                                <option value="DaNang">Đà Nẵng</option>
-                                <option value="NhaTrang">Nha Trang</option>
-                                <option value="Hue">Huế</option>
-                            </select>
-                        </div>
-                        <i class="fas fa-home icon-home"></i>
-                        <i class="fas fa-home icon-State"></i>
-                        <br>
-                        <label for=""><b>Phone Number</b></label>
-                        <div>
-                            <input type="text" id="txtHome" name="txtHome" placeholder="Home">
-                            <input type="text" id="txtWord" name="txtWord" placeholder="Work">
-                        </div>
-                        <i class="fas fa-headphones icon-phone"></i>
-                        <i class="fas fa-tablet icon-work"></i>
-                        <br>
-                        <label for=""><b>Email Address</b></label>
-                        <div>
-                            <input type="Email" id="txtEmail" name="txtEmail" placeholder="email@example.com">
-                        </div>
-                        <i class="fas fa-envelope icon-mail"></i><br>
-                        <div>
-                            <input id="btn-submit" type="submit" value="Register" style="margin-left: 20%" />
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </section>
-        <!-- footer -->
-        <div id="footer"></div>
-    </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+            <!-- Javascript -->
+            <script src="../assets/js/jquery-1.11.1.min.js"></script>
+            <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+            <script src="../assets/js/jquery.backstretch.min.js"></script>
+            <script src="../assets/js/retina-1.1.0.min.js"></script>
+            <script src="../assets/js/scripts.js"></script>
+            
+            <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+            <![endif]-->
+        </body>
 </html>
 <script type="text/javascript">
-//render part
-$(document).ready(function() {
-$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-$("#footer").html("<object width=\"100%\" height=\"550px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-})
-</script>
-<script type="text/javascript">
-//set active class menu
-function afterClick(idElement) {
-var ul = document.getElementById("main-menu");
-var items = ul.getElementsByTagName("li");
-for (var i = 0; i < items.length; ++i) {
-var n = items[i].className.indexOf('active');
-if (n != -1)
-items[i].className = items[i].className.replace('active', " ");
-}
-document.getElementById(idElement).className += ' active';
-}
-</script>
-<script>
-//Dao chuoi
-function reverseString(str) {
-// Step 1. Use the split() method to return a new array
-var splitString = str.split(""); // var splitString = "hello".split("");
-// ["h", "e", "l", "l", "o"]
-// Step 2. Use the reverse() method to reverse the new created array
-var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
-// ["o", "l", "l", "e", "h"]
-// Step 3. Use the join() method to join all elements of the array into a string
-var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
-// "olleh"
-//Step 4. Return the reversed string
-return joinArray; // "olleh"
-}
-//Lay ten trang web tu url
-function getidMenufromURL() {
-var str = window.location.pathname;
-if (str != "") {
-var reversestr = reverseString(str);
-var input = reversestr.substring(reversestr.indexOf('.') + 1, reversestr.indexOf('/'));
-afterClick(reverseString(input));
-} else
-afterClick('home');
-}
-</script>
-<script type="text/javascript">
-// jQuery(document).ready(function() {
-// });
-</script>
-<!-- JS button top -->
-<script type="text/javascript">
-window.onscroll = function() {
-scrollFunction()
-};
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-document.getElementById("btnTop").style.display = "block";
-} else {
-document.getElementById("btnTop").style.display = "none";
-}
-}
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-</script>
-<!-- create animate = wow -->
-<script>
-new WOW().init();
-</script>
-<!-- Create register funciton -->
-<script>
-// document.getElementById("frReg").onsubmit = function()
-// {
-//     var first = document.getElementById("txtFirst").value.trim();
-//     var last  = document.getElementById("txtLast").value.trim();
-//     var date  = document.getElementById("txtDate").value.trim();
-//     var male = document.getElementById("Male").value.trim();
-//     var female = document.getElementById("Female").value.trim();
-//     var stress = document.getElementById("txtAdd").value.trim();
-//     var aline = document.getElementById("txtAdd2").value.trim();
-//     var city = document.getElementById("txtCity").value.trim();
-//     var sate = document.getElementById("txtState").value.trim();
-//     var pincode = document.getElementById("txtPin").value.trim();
-//     var City = document.getElementById("city").value.trim();
-//     var home = document.getElementById("txtHome").value.trim();
-//     var work = document.getElementById("txtWord").value.trim();
-//     var email = document.getElementById("txtEmail").value.trim();
-//     var a = [];
-//     a.push("First Name: "+first);
-//     a.push("Last Name: "+last);
-//     a.push("Date: "+date);
-//     a.push("Stress: "+stress);
-//     a.push("Address Line2: "+aline);
-//     a.push("City: "+city);
-//     a.push("State: "+sate);
-//     a.push("Pincode: "+pincode);
-//     a.push("City 2: "+City);
-//     a.push("Home: "+home);
-//     a.push("Work: "+work);
-//     a.push("Email: "+email);
-//     var s = a.join("\n");
-//     alert("Chúc mừng bạn đăng ký thành công\n\n"+s);
-//     cmt.document.write("AA"+s);
-// }
-$("#btn-submit").click(function() {
-var first = $("#txtFirst").val();
-var last = $("#txtLast").val();
-var date = $("#txtDate").val();
-var male = $("#Male").val();
-var female = $("#Female").val();
-var stress = $("#txtAdd").val();
-var aline = $("#txtAdd2").val();
-var city = $("#txtCity").val();
-var sate = $("#txtState").val();
-var pincode = $("#txtPin").val();
-var City = $("#city").val();
-var home = $("#txtHome").val();
-var work = $("#txtWord").val();
-var email = $("#txtEmail").val();
-alert("Name: " + first + "\n" + "Last: " + last);
-});
+    $("#btn-click").click(function()
+    {
+        var first = $('#form-first-name').val();
+        var last = $('#form-last-name').val();
+        var email = $('#form-email').val();
+        alert("First Name: " +first + "\n" + "Last Name: " +last +"\n" +"Email: " +email)
+    });
 </script>

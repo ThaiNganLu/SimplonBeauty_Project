@@ -912,134 +912,15 @@ input:focus {
 #myUL li a:hover:not(.header) {
     background-color: #eee;
 }
-
-
-/* register*/
-
-input[type=text]#total {
-    width: 70%;
-}
-
-.btn-pay-custom {
-    margin-top: 2.5%;
-    margin-bottom: 2%;
-}
-
-
-/*register*/
-
-input[type=text] {
-    padding-left: 2.5%;
-    border-radius: 10px;
-}
-
-input[type=Date] {
-    padding-left: 2.5%;
-    width: 25%;
-    border-radius: 10px;
-}
-
-select {
-    padding-left: 2.5%;
-    border-radius: 10px;
-}
-
-input[type=email] {
-    padding-left: 2.5%;
-    border-radius: 10px;
-    width: 51%;
-}
-
-.Margin-Top {
-    margin-top: 5px;
-}
-
-.icon-user {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 0.3%;
-}
-
-.icon-last {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 14.9%;
-}
-
-.icon-calendar {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 0.3%;
-}
-
-.Gender {
-    margin-left: 16.5%;
-}
-
-.Male-custom {
-    margin-left: 2.6% !important;
-}
-
-.Female-custom {
-    margin-left: 0.5% !important;
-}
-
-.icon-home {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 0.3%;
-}
-
-.icon-State {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 14.9%;
-}
-
-.icon-phone {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 0.3%;
-}
-
-.icon-work {
-    position: absolute;
-    margin-top: -1.6%;
-    margin-left: 14.9%;
-}
-
-.icon-mail {
-    position: absolute;
-    margin-top: -1.4%;
-    margin-left: 0.3%;
-}
-
-.View {
-    width: 50.4%;
-}
-
-.ViewSelect {
-    width: 25.18%;
-}
-
-.form-custom {
-    margin-left: 30%
-}
-/*PayMent*/
-.payment-custom input[type=text]
+/*btn number shopping cart*/
+.number-shoppingCart-quantum
 {
-    width: 100%
-}
-.payment-custom input[type=email]
-{
-    width: 100%;
-}
-.payment-custom select
-{
-    width: 100%;
-}
-.payment-custom textarea
-{
-    width: 100%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    margin-top: -5%;
+    margin-left: 10%;
 }
 
