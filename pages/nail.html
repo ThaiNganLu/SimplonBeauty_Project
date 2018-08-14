@@ -1,352 +1,353 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>NAIL</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/animate.css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <!-- banner -->
-        <div id="main">
-            <div class="top_panel">
-                <div class="top_panel_content">
-                    <div class="container">
-                        <div class="top_panel_left">
-                            <div class="col-md-6 col-xs-12">
-                                <ul type="none">
-                                    <li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
-                                    <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
-                                    <li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
-                                    <li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
-                                    <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
-                                    <li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                </ul>
-                            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NAIL</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- banner -->
+    <div id="main">
+        <div class="top_panel">
+            <div class="top_panel_content">
+                <div class="container">
+                    <div class="top_panel_left">
+                        <div class="col-md-6 col-xs-12">
+                            <ul type="none">
+                                <li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
+                                <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
+                                <li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
+                                <li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
+                                <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
+                                <li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </ul>
                         </div>
-                        <div class="top_panel_right">
-                            <div class="col-md-6 col-xs-12">
-                                <p align="right" style="color: white">
-                                    <i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    
-                                    <a href="#" style="color: white"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="top_panel_right">
+                        <div class="col-md-6 col-xs-12">
+                            <p align="right" style="color: white">
+                                <i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="#" style="color: white"> Shoping Cart </a><i class="fas fa-shopping-cart"><span id="num-cart">0</span></i></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- header -->
-            <div id="header"></div>
-            <!-- main menu -->
-            <nav class="navbar navbar-default navbar-default-custom">
-                <div class="container-fluid table-custom">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        </div>
+    </div>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main menu -->
+    <nav class="navbar navbar-default navbar-default-custom">
+        <div class="container-fluid table-custom">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul id="main-menu" class="nav navbar-nav horizontal-list">
-                            <li><a href="home.html" class="btn-2">HOME</a></li>
-                            <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
-                            <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
-                                <li><a href="product-skin.html">Skin</a></li>
-                                <li><a href="product-lotion.html">Loction</a></li>
-                                <li><a href="product-essence.html">Essence</a></li>
-                                <li><a href="product-cream.html">Cream</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
-                        <li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
-                        <li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
-                        <li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
-                    </ul>
-                </div>
             </div>
-        </nav>
-        <!-- content -->
-        <section id="template">
-            <div id="content">
-                <!-- main-content -->
-                <div class="row">
-                    <div class="container">
-                        <!-- main-content -->
-                        <!-- hot-item -->
-                        <div class="skincare-hot-item">
-                            <h2 class="skincare-caption">NAIL</h2>
-                            <p align="right"><a href="home.html">HOME</a>><a href="nail.html">NAIL</a></p>
-                            <hr size="10" class="skincare-line">
-                            <div class="content-2">
-                                <h3 class="skincare-content-tile">NAIL HOT ITEM</h3>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
-                                    <div align="center" style="width: 100%; height: 100%;">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-1.jpg" class="skincare-content-image">
-                                                <figcaption>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="main-menu" class="nav navbar-nav horizontal-list">
+                    <li><a href="home.html" class="btn-2">HOME</a></li>
+                    <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
+                        <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
+                            <li><a href="product-skin.html">Skin</a></li>
+                            <li><a href="product-lotion.html">Loction</a></li>
+                            <li><a href="product-essence.html">Essence</a></li>
+                            <li><a href="product-cream.html">Cream</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
+                    <li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
+                    <li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
+                    <li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- content -->
+    <section id="template">
+        <div id="content">
+            <!-- main-content -->
+            <div class="row">
+                <div class="container">
+                    <!-- main-content -->
+                    <!-- hot-item -->
+                    <div class="skincare-hot-item">
+                        <h2 class="skincare-caption">NAIL</h2>
+                        <p align="right"><a href="home.html">HOME</a>><a href="nail.html">NAIL</a></p>
+                        <hr size="10" class="skincare-line">
+                        <div class="content-2">
+                            <h3 class="skincare-content-tile">NAIL HOT ITEM</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+                                <div align="center" style="width: 100%; height: 100%;">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-1.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Trendy nails of modern sense, snappy-looking nail colors</p>
                                                 <a href="product-hotitem-nail1.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS</p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
-                                    <div align="center" style="width: 104%; height: 100%;">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-2.jpg" class="skincare-content-image">
-                                                <figcaption>
+                            </div>
+                            <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+                                <div align="center" style="width: 104%; height: 100%;">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-2.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Moisturizing and fragrant nail remover containing romantic rose water</p>
                                                 <a href="product-hotitem-nail2.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAIL REMOVER 150ml ROSE</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAIL REMOVER 150ml ROSE</p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
-                                    <div align="center" style="width: 100%; height: 100%;">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-3.jpg" class="skincare-content-image">
-                                                <figcaption>
+                            </div>
+                            <div class="col-md-3 col-xs-12" style="border-right: 1px solid #eee">
+                                <div align="center" style="width: 100%; height: 100%;">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-3.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Modern nail glitter containing fashionable and chic urban glitter.</p>
                                                 <a href="product-hotitem-nail3.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI048</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI048</p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-xs-12">
-                                    <div align="center" style="width: 100%; height: 100%;">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-4.jpg" class="skincare-content-image">
-                                                <figcaption>
+                            </div>
+                            <div class="col-md-3 col-xs-12">
+                                <div align="center" style="width: 100%; height: 100%;">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-4.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Modern nail color true to fashionable and chic urban vividness.</p>
                                                 <a href="product-hotitem-nail4.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI031</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI031</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- saleoff -->
-                        <div class="skincare-sale-banner">
-                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" style="margin-top: -2%">
-                                    <div class="item active">
-                                        <img src="../assets/img/skincare-sale-banner-1.jpg" class="skincare-sale-img">
-                                    </div>
-                                    <div class="item">
-                                        <img src="../assets/img/skincare-sale-banner-2.jpg" class="skincare-sale-img">
-                                    </div>
+                    </div>
+                    <!-- saleoff -->
+                    <div class="skincare-sale-banner">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" style="margin-top: -2%">
+                                <div class="item active">
+                                    <img src="../assets/img/skincare-sale-banner-1.jpg" class="skincare-sale-img">
                                 </div>
-                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                                <div class="item">
+                                    <img src="../assets/img/skincare-sale-banner-2.jpg" class="skincare-sale-img">
+                                </div>
                             </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                        <div class="row row-custom">
-                            <div class="col-md-9 col-xs-12">
-                                <hr size="10" class="skincare-line">
-                                <h3 class="skincare-content-tile">NAIL ALL ITEM</h3>
-                                <!-- product-content 3a -->
-                                <!-- <div class="row   row-custom"> -->
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-1.jpg" class="skincare-content-image">
-                                                <figcaption>
+                    </div>
+                    <div class="row row-custom">
+                        <div class="col-md-9 col-xs-12">
+                            <hr size="10" class="skincare-line">
+                            <h3 class="skincare-content-tile">NAIL ALL ITEM</h3>
+                            <!-- product-content 3a -->
+                            <!-- <div class="row   row-custom"> -->
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-1.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Trendy nails of modern sense, snappy-looking nail colors</p>
                                                 <a href="product-hotitem-nail1.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-2.jpg" class="skincare-content-image">
-                                                <figcaption>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-2.jpg" class="skincare-content-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Moisturizing and fragrant nail remover containing romantic rose water</p>
                                                 <a href="product-hotitem-nail2.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAIL REMOVER 150ml ROSE</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAIL REMOVER 150ml ROSE</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/product_nail_image1.jpg" class="product-skincare-image">
-                                                <figcaption>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/product_nail_image1.jpg" class="product-skincare-image">
+                                            <figcaption>
                                                 <h2>View more</h2>
                                                 <p>Advanced repairing formula that cares perfectly to the tip of hand.</p>
                                                 <a href="product-hotitem-nail1.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>REPAIR NAILS</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-4.jpg" class="skincare-content-image">
-                                                <figcaption>
-                                                <h2>View more</h2>
-                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
-                                                <a href="product-hotitem-nail4.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI031</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- </div> -->
-                                <!-- product content 3b -->
-                                <!-- <div class="row   row-custom"> -->
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/nail-hotitem-3.jpg" class="skincare-content-image">
-                                                <figcaption>
-                                                <h2>View more</h2>
-                                                <p>Modern nail glitter containing fashionable and chic urban glitter.</p>
-                                                <a href="product-hotitem-nail3.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI048</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/product_nail_image2.jpg" class="product-skincare-image">
-                                                <figcaption>
-                                                <h2>View more</h2>
-                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
-                                                <a href="product-hotitem-nail4.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI034</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/product_nail_image3.jpg" class="skincare-content-image">
-                                                <figcaption>
-                                                <h2>View more</h2>
-                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
-                                                <a href="product-hotitem-nail3.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI036</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-xs-12 col-md-5-custom ">
-                                    <div align="center" class="produt-skincare-border">
-                                        <div class="grid">
-                                            <figure class="effect-sadie">
-                                                <img src="../assets/img/product_nail_image4.jpg" class="product-skincare-image">
-                                                <figcaption>
-                                                <h2>View more</h2>
-                                                <p>Modern nail glitter containing fashionable and chic urban glitter.</p>
-                                                <a href="product-hotitem-nail3.html">View more</a>
-                                                </figcaption>
-                                            </figure>
-                                            <p>TRENDY NAILS GLI016</p>
-                                        </div>
+                                            </figcaption>
+                                        </figure>
+                                        <p>REPAIR NAILS</p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- sidebar-right -->
-                            <div class="col-md-3 col-xs-12">
-                                <!-- shopping cart -->
-                                <div class="mini-shoppingCart col-md-12">
-                                    <div class="titleOthersProduct" align="center">
-                                        <p align="center"><strong>YOUR ORDER</strong></p>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-md-8-custom">
-                                            <img src="../assets/img/nail-hotitem-2.jpg" class="imgShoppingCart">
-                                        </div>
-                                        <div class="col-md-6 col-md-8-custom">
-                                            <p style="font-size: 10px;"><strong>TRENDY NAIL REMOVER 150ml ROSE</strong></p>
-                                            <p style="color: red ">US: $<span id="price">7.92</span></p>
-                                            <!-- numberic up down - quantum -->
-                                            <div class="input-group number-spinner">
-                                                <span class="input-group-btn data-up">
-                                                    <button class="btn btn-default btn-info btn-custom" data-dir="up"><i class="fas fa-caret-up"></i></button>
-                                                </span>
-                                                <input id="quantity" type="text" class="form-control form-control-custom text-center" value="1" min="1" max="10">
-                                                <span class="input-group-btn data-dwn">
-                                                    <button class="btn btn-default btn-info btn-custom" data-dir="dwn"><i class="fas fa-sort-down"></i></button>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- payment -->
-                                    <hr class="skincare-small-line" style="width: 30%;">
-                                    <div class="pay" align="center">
-                                        <lable>Total: $ </lable><input type="text" id="total" />
-                                        <button class="btn btn-default btn-pay-custom">Payment</button> <button class="btn btn-default btn-pay-custom">Cancel</button>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-4.jpg" class="skincare-content-image">
+                                            <figcaption>
+                                                <h2>View more</h2>
+                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
+                                                <a href="product-hotitem-nail4.html">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI031</p>
                                     </div>
                                 </div>
-                                <!-- danh muc sp -->
-                                <div class="OthersProduct col-md-12">
-                                    <div class="titleOthersProduct" align="center">
-                                        <p align="center"><strong>ORTHERS PRODUCT</strong></p>
+                            </div>
+                            <!-- </div> -->
+                            <!-- product content 3b -->
+                            <!-- <div class="row   row-custom"> -->
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/nail-hotitem-3.jpg" class="skincare-content-image">
+                                            <figcaption>
+                                                <h2>View more</h2>
+                                                <p>Modern nail glitter containing fashionable and chic urban glitter.</p>
+                                                <a href="product-hotitem-nail3.html">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI048</p>
                                     </div>
-                                    <ul>
-                                        <li><a href="skincare.html">SKIN CARE</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/product_nail_image2.jpg" class="product-skincare-image">
+                                            <figcaption>
+                                                <h2>View more</h2>
+                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
+                                                <a href="product-hotitem-nail4.html">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI034</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/product_nail_image3.jpg" class="skincare-content-image">
+                                            <figcaption>
+                                                <h2>View more</h2>
+                                                <p>Modern nail color true to fashionable and chic urban vividness.</p>
+                                                <a href="product-hotitem-nail3.html">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI036</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12 col-md-5-custom ">
+                                <div align="center" class="produt-skincare-border">
+                                    <div class="grid">
+                                        <figure class="effect-sadie">
+                                            <img src="../assets/img/product_nail_image4.jpg" class="product-skincare-image">
+                                            <figcaption>
+                                                <h2>View more</h2>
+                                                <p>Modern nail glitter containing fashionable and chic urban glitter.</p>
+                                                <a href="product-hotitem-nail3.html">View more</a>
+                                            </figcaption>
+                                        </figure>
+                                        <p>TRENDY NAILS GLI016</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sidebar-right -->
+                        <div class="col-md-3 col-xs-12">
+                            <!-- shopping cart -->
+                            <div class="mini-shoppingCart col-md-12">
+                                <div class="titleOthersProduct" align="center">
+                                    <p align="center"><strong>YOUR ORDER</strong></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-md-8-custom">
+                                        <img src="../assets/img/nail-hotitem-2.jpg" class="imgShoppingCart">
+                                    </div>
+                                    <div class="col-md-6 col-md-8-custom">
+                                        <p style="font-size: 10px;"><strong>TRENDY NAIL REMOVER 150ml ROSE</strong></p>
+                                        <p style="color: red ">US: $<span id="price">7.92</span></p>
+                                        <!-- numberic up down - quantum -->
+                                        <div class="input-group number-spinner">
+                                            <span class="input-group-btn data-up">
+                                                    <button class="btn btn-default btn-info btn-custom" data-dir="up"><i class="fas fa-caret-up"></i></button>
+                                                </span>
+                                            <input id="quantity" type="text" class="form-control form-control-custom text-center" value="1" min="1" max="10">
+                                            <span class="input-group-btn data-dwn">
+                                                    <button class="btn btn-default btn-info btn-custom" data-dir="dwn"><i class="fas fa-sort-down"></i></button>
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- payment -->
+                                <hr class="skincare-small-line" style="width: 30%;">
+                                <div class="pay" align="center">
+                                    <lable>Total: $ </lable><input type="text" id="total" />
+                                    <button class="btn btn-default btn-pay-custom">Payment</button> <button class="btn btn-default btn-pay-custom">Cancel</button>
+                                </div>
+                            </div>
+                            <!-- danh muc sp -->
+                            <div class="OthersProduct col-md-12">
+                                <div class="titleOthersProduct" align="center">
+                                    <p align="center"><strong>ORTHERS PRODUCT</strong></p>
+                                </div>
+                                <ul>
+                                    <li><a href="skincare.html">SKIN CARE</a>
                                         <ul>
                                             <li><a href="product-skin.html">Skin</a></li>
                                             <li><a href="product-lotion.html">Loction</a></li>
@@ -374,83 +375,85 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- footer -->
-<div id="footer"></div>
-<button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
+        </div>
+    </section>
+    <!-- footer -->
+    <div id="footer"></div>
+    <button id="btnTop" title="Go To Top" onclick="topFunction()">TOP&nbsp;&uarr;</button>
 </body>
+
 </html>
 <!-- left-sidebar -->
 <script type="text/javascript">
-//render header footer
-$(document).ready(function() {
-$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-$("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-})
+    //render header footer
+    $(document).ready(function() {
+        $("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+        $("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+    })
 </script>
 <script>
-$(document).ready(function() {
-});
+    $(document).ready(function() {});
 </script>
 <script type="text/javascript">
-window.onscroll = function() {
-scrollFunction();
-scrollSidebar();
-};
-function scrollFunction() {
-if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-document.getElementById("btnTop").style.display = "block";
-} else {
-document.getElementById("btnTop").style.display = "none";
-}
-}
-function topFunction() {
-document.body.scrollTop = 0; // For Safari
-document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-// left-sidebar
-function scrollSidebar() {
-$('#sidebarCollapse').on('click', function() {
-var findClass = $('#sidebar').attr('class');
-if ((findClass.indexOf('active') == -1)) {
-$('#sidebar').addClass(' active');
-} else {
-$('#sidebar').removeClass('active');
-}
-});
-}
+    window.onscroll = function() {
+        scrollFunction();
+        scrollSidebar();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("btnTop").style.display = "block";
+        } else {
+            document.getElementById("btnTop").style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+    // left-sidebar
+    function scrollSidebar() {
+        $('#sidebarCollapse').on('click', function() {
+            var findClass = $('#sidebar').attr('class');
+            if ((findClass.indexOf('active') == -1)) {
+                $('#sidebar').addClass(' active');
+            } else {
+                $('#sidebar').removeClass('active');
+            }
+        });
+    }
 </script>
 <script>
-$(function() {
-var action;
-$(".number-spinner button").mousedown(function() {
-btn = $(this);
-input = btn.closest('.number-spinner').find('input');
-btn.closest('.number-spinner').find('button').prop("disabled", false);
-if (btn.attr('data-dir') == 'up') {
-action = setInterval(function() {
-if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
-input.val(parseInt(input.val()) + 1);
-} else {
-btn.prop("disabled", true);
-clearInterval(action);
-}
-}, 150);
-} else {
-action = setInterval(function() {
-if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
-input.val(parseInt(input.val()) - 1);
-} else {
-btn.prop("disabled", true);
-clearInterval(action);
-}
-}, 150);
-}
-var val_total = $('#price').text() * $('#quantity').val();
-$('#total').val(val_total);
-}).mouseup(function() {
-clearInterval(action);
-});
-});
+    $(function() {
+        var action;
+        $(".number-spinner button").mousedown(function() {
+            btn = $(this);
+            input = btn.closest('.number-spinner').find('input');
+            btn.closest('.number-spinner').find('button').prop("disabled", false);
+            if (btn.attr('data-dir') == 'up') {
+                action = setInterval(function() {
+                    if (input.attr('max') == undefined || parseInt(input.val()) < parseInt(input.attr('max'))) {
+                        input.val(parseInt(input.val()) + 1);
+                    } else {
+                        btn.prop("disabled", true);
+                        clearInterval(action);
+                    }
+                }, 150);
+            } else {
+                action = setInterval(function() {
+                    if (input.attr('min') == undefined || parseInt(input.val()) > parseInt(input.attr('min'))) {
+                        input.val(parseInt(input.val()) - 1);
+                    } else {
+                        btn.prop("disabled", true);
+                        clearInterval(action);
+                    }
+                }, 150);
+            }
+            var val_total = $('#price').text() * $('#quantity').val();
+            $('#total').val(val_total);
+        }).mouseup(function() {
+            clearInterval(action);
+        });
+    });
 </script>

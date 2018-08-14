@@ -16,16 +16,19 @@
     margin-top: 1%
 }
 
-#num-cart
-{
+#num-cart {
     border-radius: 50%;
     color: red;
     background-color: white;
     outline: none;
     border: none;
-    margin-left: 100%;
-    margin-top: -18%;
+    margin-left: -5px;
+    margin-top: -10px;
+    position: absolute;
+    padding: 2px 4px;
 }
+
+
 /* unvisited link */
 
 a:link {
@@ -95,6 +98,7 @@ a:active {
 .imgLogo {
     width: 15%;
     height: auto;
+    margin-top: 20px;
 }
 
 .top_panel_content {}

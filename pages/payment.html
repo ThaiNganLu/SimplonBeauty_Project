@@ -1,107 +1,109 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>PAYMENT</title>
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-		<link rel="stylesheet" href="../assets/css/style.css">
-		<link rel="stylesheet" href="../assets/css/animate.css">
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
-	<body ng-app="">
-		<!-- banner -->
-		<div id="main">
-			<div class="top_panel">
-				<div class="top_panel_content">
-					<div class="container">
-						<div class="top_panel_left">
-							<div class="col-md-6 col-xs-12">
-								<ul type="none">
-									<li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
-									<li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
-									<li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
-									<li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
-									<li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
-									<li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								</ul>
-							</div>
-						</div>
-						<div class="top_panel_right">
-							<div class="col-md-6 col-xs-12">
-								<p align="right" style="color: white">
-									<i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
-									<i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="#" style="color: white"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- header -->
-			<div id="header"></div>
-			<!-- main menu -->
-			<nav class="navbar navbar-default navbar-default-custom">
-				<div class="container-fluid table-custom">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body ng-app="">
+    <!-- banner -->
+    <div id="main">
+        <div class="top_panel">
+            <div class="top_panel_content">
+                <div class="container">
+                    <div class="top_panel_left">
+                        <div class="col-md-6 col-xs-12">
+                            <ul type="none">
+                                <li><a href="fb.com"><i class="fab fa-facebook-f""></i></a></li>&nbsp;
+                                <li><a href="twitter.com"><i class="fab fa-twitter"></i></a></li>&nbsp;
+                                <li><a href="google.com"><i class="fab fa-google-plus-g"></i></a></li>&nbsp;
+                                <li><a href="vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>&nbsp;
+                                <li><a href="youtube.com"><i class="fab fa-youtube"></i></a></li>&nbsp;
+                                <li><a href="pinterest.com"><i class="fab fa-pinterest"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top_panel_right">
+                        <div class="col-md-6 col-xs-12">
+                            <p align="right" style="color: white">
+                                <i class="fas fa-phone-volume"> 01225921408</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="far fa-calendar-alt"> 19/07/2018</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="Login.html" style="color: white">Sign in</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="#" style="color: white"> Shoping Cart </a><i class="fas fa-shopping-cart"><span id="num-cart">0</span></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header -->
+    <div id="header"></div>
+    <!-- main menu -->
+    <nav class="navbar navbar-default navbar-default-custom">
+        <div class="container-fluid table-custom">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						</button>
-					</div>
-					<div class="collapse navbar-collapse" id="myNavbar">
-						<ul id="main-menu" class="nav navbar-nav horizontal-list">
-							<li><a href="home.html" class="btn-2">HOME</a></li>
-							<li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
-							<ul id="ul-sub-menu-dropdown" class="dropdown-menu">
-								<li><a href="product-skin.html">Skin</a></li>
-								<li><a href="product-lotion.html">Loction</a></li>
-								<li><a href="product-essence.html">Essence</a></li>
-								<li><a href="product-cream.html">Cream</a></li>
-							</ul>
-						</li>
-						<li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
-						<li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
-						<li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
-						<li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- content -->
-		<section id="template">
-			<form>
-				<div class="container">
-					<div class="logo" align="center">
-						<h2 style="font-family: cursive;">SIMPLON BEAUTY</h2>
-					</div>
-					<hr size="10" class="skincare-line">
-					<div class="row">
-						<div class="col-md-4 col-xs-12 payment-custom">
-							<h3 align="center">Customer Information</h3>
-							<hr>
-							<input type="text" name="txtName" id="txtName" placeholder="Full Name" required ng-model="FullName">
-							<br>
-							<br>
-							<input type="text" id="nphone" ng-model="phone" name="nphone" placeholder="Phone Number" required>
-							<br>
-							<br>
-							<input type="Email" name="Email" ng-model="email" id="Email" required placeholder="Email">
-							<br>
-							<br>
-							<input type="text" id="txtStress" ng-model="stress"  name="txtStress" required placeholder="Address">
-							<br>
-							<br>
-							<select name="citi" id="citi" ng-model="citi">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="main-menu" class="nav navbar-nav horizontal-list">
+                    <li><a href="home.html" class="btn-2">HOME</a></li>
+                    <li class="dropdown sub-menu-dropdown"><a class="dropdown-toggle btn-2" data-toggle="dropdown" href="skincare.html">SKIN CARE</a>
+                        <ul id="ul-sub-menu-dropdown" class="dropdown-menu">
+                            <li><a href="product-skin.html">Skin</a></li>
+                            <li><a href="product-lotion.html">Loction</a></li>
+                            <li><a href="product-essence.html">Essence</a></li>
+                            <li><a href="product-cream.html">Cream</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../pages/mask.html" class="btn-2">MASK/PACK</a></li>
+                    <li><a href="../pages/makeup.html" class="btn-2">MAKE UP</a></li>
+                    <li><a href="../pages/body-hair.html" class="btn-2">BODY/HAIR</a></li>
+                    <li><a href="../pages/nail.html" class="btn-2">NAIL</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- content -->
+    <section id="template">
+        <form>
+            <div class="container">
+                <div class="logo" align="center">
+                    <h2 style="font-family: cursive;">SIMPLON BEAUTY</h2>
+                </div>
+                <hr size="10" class="skincare-line">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 payment-custom">
+                        <h3 align="center">Customer Information</h3>
+                        <hr>
+                        <input type="text" name="txtName" id="txtName" placeholder="Full Name" required ng-model="FullName">
+                        <br>
+                        <br>
+                        <input type="text" id="nphone" ng-model="phone" name="nphone" placeholder="Phone Number" required>
+                        <br>
+                        <br>
+                        <input type="Email" name="Email" ng-model="email" id="Email" required placeholder="Email">
+                        <br>
+                        <br>
+                        <input type="text" id="txtStress" ng-model="stress" name="txtStress" required placeholder="Address">
+                        <br>
+                        <br>
+                        <select name="citi" id="citi" ng-model="citi">
 								<option value="None">Select Country</option>
 								<option value="SaiGon">Sài Gòn</option>
 								<option value="CanTho">Cần Thơ</option>
@@ -109,62 +111,63 @@
 								<option value="NhaTrang">Nha Trang</option>
 								<option value="Hue">Huế</option>
 							</select>
-							<br>
-							<br>
-							<textarea placeholder="Comment" ng-model="comment"></textarea>
-						</div>
-						<div class="col-md-4 col-xs-12">
-							<h3 align="center">Payment</h3>
-							<hr>
-							<input type="radio" value="delivery" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment upon delivery(COD)</span>
-							<br>
-							<br>
-							<input type="radio" value="Bank" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Bank Transfer</span>
-							<br>
-							<br>
-							<input type="radio" value="ATM" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment by ATM Card</span>
-							<br>
-							<br>
-							<input type="radio" value="Visa" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment by Visa/Master/Amex</span>
-							<br>
-							<br>
-							<hr>
-							<h3>Purchase Information</h3>
-							<p>Full Name: {{FullName}}</p>
-							<p>Phone: {{phone}}</p>
-							<p>Email: {{email}}</p>
-							<p>Stress: {{stress}}</p>
-							<p>Citi: {{citi}}</p>
-							<p>Comment: {{comment}}</p>
-						</div>
-						<div class="col-md-4 col-xs-12">
-							<h3 align="center">Order(2 product)</h3>
-							<p>2x YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
-							<p align="right">20$</p>
-							<p>Delivery charges: </p>
-							<h3 style="color: red">Total: 20$</h3>
-							<div align="center">
-								<button type="button" class="btn btn-info" id="btnConfirm">CONFIRM</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</form>
-		</section>
-		<!-- footer -->
-		<div id="footer"></div>
-	</body>
+                        <br>
+                        <br>
+                        <textarea placeholder="Comment" ng-model="comment"></textarea>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <h3 align="center">Payment</h3>
+                        <hr>
+                        <input type="radio" value="delivery" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment upon delivery(COD)</span>
+                        <br>
+                        <br>
+                        <input type="radio" value="Bank" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Bank Transfer</span>
+                        <br>
+                        <br>
+                        <input type="radio" value="ATM" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment by ATM Card</span>
+                        <br>
+                        <br>
+                        <input type="radio" value="Visa" name="Payment" checked><span style="font-weight: bold; margin-left: 2%">Payment by Visa/Master/Amex</span>
+                        <br>
+                        <br>
+                        <hr>
+                        <h3>Purchase Information</h3>
+                        <p>Full Name: {{FullName}}</p>
+                        <p>Phone: {{phone}}</p>
+                        <p>Email: {{email}}</p>
+                        <p>Stress: {{stress}}</p>
+                        <p>Citi: {{citi}}</p>
+                        <p>Comment: {{comment}}</p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <h3 align="center">Order(2 product)</h3>
+                        <p>2x YEHWADAM NOKYONG COLLAGEN CONTOUR LIFT GOLD CAPSULE CREAM</p>
+                        <p align="right">20$</p>
+                        <p>Delivery charges: </p>
+                        <h3 style="color: red">Total: 20$</h3>
+                        <div align="center">
+                            <button type="button" class="btn btn-info" id="btnConfirm">CONFIRM</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- footer -->
+    <div id="footer"></div>
+</body>
+
 </html>
 <!-- left-sidebar -->
 <script type="text/javascript">
-//render header footer
-$(document).ready(function() {
-$("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
-$("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
-})
+    //render header footer
+    $(document).ready(function() {
+        $("#header").html("<object width=\"100%\" height=\"350px\" type=\"text/html\" data=\"../includes/header.html\"></object>");
+        $("#footer").html("<object width=\"100%\" height=\"570px\" type=\"text/html\" data=\"../includes/footer.html\"></object>");
+    })
 </script>
 <script>
-	$('#btnConfirm').click(function(){
-		alert("Thank you for your order!!! ")
-	});
+    $('#btnConfirm').click(function() {
+        alert("Thank you for your order!!! ")
+    });
 </script>
