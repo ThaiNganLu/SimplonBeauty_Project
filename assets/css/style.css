@@ -16,7 +16,16 @@
     margin-top: 1%
 }
 
-
+#num-cart
+{
+    border-radius: 50%;
+    color: red;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin-left: 100%;
+    margin-top: -18%;
+}
 /* unvisited link */
 
 a:link {

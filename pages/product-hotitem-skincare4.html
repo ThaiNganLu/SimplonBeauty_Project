@@ -16,10 +16,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body ng-app="">
     <!-- banner -->
     <div id="main">
-        <div class="top_panel">
+        <div class="top_panel navbar-fixed-top">
             <div class="top_panel_content">
                 <div class="container">
                     <div class="top_panel_left">
@@ -43,6 +43,7 @@
                                 <a href="Register.html" style="color: white">Register</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
                                 <a href="#" style="color: white"><i class="fas fa-shopping-cart"></i> Shoping Cart</a></p>
+                                <input type="button" id="num-cart" value="{{count}}">
                         </div>
                     </div>
                 </div>
@@ -122,7 +123,7 @@
                         <li>Moisturizing/Soothing</li>
                         <li>Volume/Size: 100ml</l>
                     </ul><br>
-                    <button type="button" class="btn btn-danger">ADD TO CART</button>
+                    <button type="button" class="btn btn-danger" ng-click="count = count + 1" ng-init="count = 0">ADD TO CART</button>
                     <button style="margin-left:15px;" type="button" class="btn btn-warning"><a href="payment.html">BUY IT NOW</a></button>
                     <hr style="margin-top: 200px;">
                 </div>
